@@ -1,0 +1,63 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var log = require('verbalize');
+var argv = require('minimist')(process.argv.slice(2));
+var cfpathcheck = require('../lib/cfpathcheck');
+var checkstyleFormatter = require('checkstyle-formatter');
+
+
+/**
+ * Everything in the file should be customized
+ */
+
+
+// Verbalize `runner`
+log.runner = 'cf-path-check';
+
+// Use `-f` or `--file` to specify the source file
+var file = argv._[0] || argv.f || argv.file || 'TODO.md';
+
+// Use `-r` or `--reporter` to specify the reporter to use
+var reporter = argv._[1] || argv.r || argv.reporter || 'checkstyle';
+
+var outFile = argv.o || argv.outfile;
+
+
+if (!file) {
+	log.error('Please provide a source file, either as a first argument or with `-s`');
+}
+
+// if (!task) {
+// 	log.error('No tasks will be appended to "' + file + '" since you didn\'t specify anything.');
+// }
+
+
+/**
+ * Application
+ */
+var violations = cfpathcheck.check(file, 'json');
+var output;
+
+if (reporter === 'checkstyle') {
+	output = checkstyleFormatter(violations);
+} else {
+	output = violations;
+}
+
+
+log.writeln(output);
+
+if (outFile) {
+	fs.writeFileSync(output);
+}
+
+// fs.appendFile(file, ('- [ ] ' + task + '\n'), function (err) {
+//   if (err) {throw err;}
+//
+//   log.writeln();
+//   log.writeln(log.gray('  todo [appended] ') + '\'' + task + '\' to ' + log.bold(file));
+//
+//   // If all is well, log a success message.
+//   log.success('  ' + log.runner + ' [done]');
+// });
