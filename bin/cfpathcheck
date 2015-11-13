@@ -5,6 +5,8 @@ var log = require('verbalize');
 var argv = require('minimist')(process.argv.slice(2));
 var cfpathcheck = require('../lib/cfpathcheck');
 var checkstyleFormatter = require('checkstyle-formatter');
+var chalk = require('chalk');
+var logSymbols = require('log-symbols');
 
 
 /**
@@ -19,7 +21,7 @@ log.runner = 'cf-path-check';
 var file = argv._[0] || argv.f || argv.file || 'TODO.md';
 
 // Use `-r` or `--reporter` to specify the reporter to use
-var reporter = argv._[1] || argv.r || argv.reporter || 'checkstyle';
+var reporter = argv._[1] || argv.r || argv.reporter || 'console';
 
 var outFile = argv.o || argv.outfile;
 
@@ -45,11 +47,30 @@ if (reporter === 'checkstyle') {
 	output = violations;
 }
 
+// log.write(output);
 
-log.writeln(output);
+if (output instanceof Array) {
+	output.forEach(function (violation) {
+
+		log.write('File: ' + chalk.green(violation.filename));
+		violation.messages.forEach(function (message) {
+			var messageText = 'L' + message.line + ':' + message.column + ' - ' + message.message;
+			if (message.severity === 'error') {
+				messageText = chalk.red(messageText);
+			} else if (message.severity === 'warning') {
+				messageText = chalk.yellow(messageText);
+			}
+
+			log.write('  ', logSymbols[message.severity], messageText);
+		});
+		log.writeln();
+	});
+} else {
+	log.writeln(output);
+}
 
 if (outFile) {
-	fs.writeFileSync(output);
+	fs.writeFileSync(checkstyleFormatter(violations));
 }
 
 // fs.appendFile(file, ('- [ ] ' + task + '\n'), function (err) {
