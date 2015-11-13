@@ -1,4 +1,5 @@
-# cf-path-check
+# cfpathcheck
+
 Static analysis for cfml template import and include paths
 
 ## Installation
