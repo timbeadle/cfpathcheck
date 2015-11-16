@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
+var path = require('path');
 var log = require('verbalize');
 var argv = require('minimist')(process.argv.slice(2));
 var cfpathcheck = require('../lib/cfpathcheck');
@@ -70,7 +71,21 @@ if (output instanceof Array) {
 }
 
 if (outFile) {
-	fs.writeFileSync(checkstyleFormatter(violations));
+
+	// Resolve the path if it's not absolute
+	if (!path.isAbsolute(outFile)) {
+		outFile = path.resolve(outFile);
+	}
+
+	// Warn that the target directory doesn't exist
+	if (!fs.existsSync(path.dirname(outFile))) {
+		// fs.mkdirSync(path.dirname(outFile));
+		log.warn('Cannot write ' + outFile +  '. Destination directory doesn\'t exist');
+	} else {
+		fs.writeFileSync(outFile, checkstyleFormatter(violations), 'utf8');
+	}
+
+
 }
 
 // fs.appendFile(file, ('- [ ] ' + task + '\n'), function (err) {
