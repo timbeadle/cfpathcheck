@@ -31,11 +31,6 @@ if (!file) {
 	log.error('Please provide a source file, either as a first argument or with `-s`');
 }
 
-// if (!task) {
-// 	log.error('No tasks will be appended to "' + file + '" since you didn\'t specify anything.');
-// }
-
-
 /**
  * Application
  */
@@ -87,13 +82,3 @@ if (outFile) {
 
 
 }
-
-// fs.appendFile(file, ('- [ ] ' + task + '\n'), function (err) {
-//   if (err) {throw err;}
-//
-//   log.writeln();
-//   log.writeln(log.gray('  todo [appended] ') + '\'' + task + '\' to ' + log.bold(file));
-//
-//   // If all is well, log a success message.
-//   log.success('  ' + log.runner + ' [done]');
-// });
