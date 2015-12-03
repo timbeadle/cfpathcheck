@@ -1,19 +1,12 @@
 #!/usr/bin/env node
 
-var fs = require('fs');
-var path = require('path');
 var log = require('verbalize');
 var argv = require('minimist')(process.argv.slice(2));
 var cfpathcheck = require('../lib/cfpathcheck');
-var checkstyleFormatter = require('checkstyle-formatter');
-var chalk = require('chalk');
-var logSymbols = require('log-symbols');
-
 
 /**
  * Everything in the file should be customized
  */
-
 
 // Verbalize `runner`
 log.runner = 'cf-path-check';
@@ -35,50 +28,10 @@ if (!file) {
  * Application
  */
 var violations = cfpathcheck.check(file, 'json');
-var output;
+var output = cfpathcheck.formatter(violations, reporter);
 
-if (reporter === 'checkstyle') {
-	output = checkstyleFormatter(violations);
-} else {
-	output = violations;
-}
-
-// log.write(output);
-
-if (output instanceof Array) {
-	output.forEach(function (violation) {
-
-		log.write('File: ' + chalk.green(violation.filename));
-		violation.messages.forEach(function (message) {
-			var messageText = 'L' + message.line + ':' + message.column + ' - ' + message.message;
-			if (message.severity === 'error') {
-				messageText = chalk.red(messageText);
-			} else if (message.severity === 'warning') {
-				messageText = chalk.yellow(messageText);
-			}
-
-			log.write('  ', logSymbols[message.severity], messageText);
-		});
-		log.writeln();
-	});
-} else {
-	log.writeln(output);
-}
+cfpathcheck.writeOutput(output);
 
 if (outFile) {
-
-	// Resolve the path if it's not absolute
-	if (!path.isAbsolute(outFile)) {
-		outFile = path.resolve(outFile);
-	}
-
-	// Warn that the target directory doesn't exist
-	if (!fs.existsSync(path.dirname(outFile))) {
-		// fs.mkdirSync(path.dirname(outFile));
-		log.warn('Cannot write ' + outFile +  '. Destination directory doesn\'t exist');
-	} else {
-		fs.writeFileSync(outFile, checkstyleFormatter(violations), 'utf8');
-	}
-
-
+	cfpathcheck.writeFile(cfpathcheck.formatter(violations, 'checkstyle'), outFile);
 }
