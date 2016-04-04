@@ -10,9 +10,9 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		eslint: {
 			options: {
-				configFile: ".eslintrc.json"
+				configFile: '.eslintrc.json'
 			},
-			src: ["lib/*.js"]
+			src: ['lib/*.js']
 		}
 	});
 
