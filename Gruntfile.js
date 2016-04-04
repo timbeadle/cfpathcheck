@@ -7,7 +7,15 @@
  */
 
 module.exports = function (grunt) {
-	grunt.initConfig();
+	grunt.initConfig({
+		eslint: {
+			extends: 'eslint:recommended',
+			src: ['lib/*.js']
+		}
+	});
 
+	grunt.registerTask('test', ['eslint']);
+
+	grunt.loadNpmTasks('gruntify-eslint');
 	grunt.loadNpmTasks('grunt-release');
 };
