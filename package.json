@@ -49,6 +49,7 @@
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
+    "eslint-plugin-node": "^1.0.0",
     "grunt": ">=0.4.5",
     "grunt-release": "^0.13.0",
     "gruntify-eslint": "^2.0.0",
