@@ -2,6 +2,8 @@
 
 Static analysis for cfml template import and include paths
 
+[![Build Status](https://travis-ci.org/timbeadle/cfpathcheck.svg?branch=master)](https://travis-ci.org/timbeadle/cfpathcheck)
+
 ## Installation
 
   `(sudo) npm install -g cfpathcheck`
