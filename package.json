@@ -35,7 +35,7 @@
     "node": ">=0.8"
   },
   "scripts": {
-    "test": "mocha -R test"
+    "test": "jshint lib/*.js"
   },
   "dependencies": {
     "chalk": "^1.1.1",
