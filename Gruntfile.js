@@ -6,7 +6,12 @@
  * Licensed under the MIT license.
  */
 
+/*global module, require */
+
 module.exports = function (grunt) {
+
+	'use strict';
+
 	// load all npm grunt tasks
 	require('load-grunt-tasks')(grunt);
 
