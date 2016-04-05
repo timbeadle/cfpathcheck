@@ -5,6 +5,7 @@ Static analysis for cfml template import and include paths
 [![npm version](https://img.shields.io/npm/v/cfpathcheck.svg)](https://www.npmjs.com/package/cfpathcheck)
 [![Downloads/month](https://img.shields.io/npm/dm/cfpathcheck.svg)](https://www.npmjs.com/package/cfpathcheck)
 [![Build Status](https://travis-ci.org/timbeadle/cfpathcheck.svg?branch=master)](https://travis-ci.org/timbeadle/cfpathcheck)
+[![Code Climate](https://codeclimate.com/github/timbeadle/cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/cfpathcheck)
 [![Dependency Status](https://david-dm.org/timbeadle/cfpathcheck.svg)](https://david-dm.org/timbeadle/cfpathcheck)
 
 ## Installation
