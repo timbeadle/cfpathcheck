@@ -21,6 +21,15 @@ module.exports = function (grunt) {
 				configFile: '.eslintrc.json'
 			},
 			src: ['lib/*.js']
+		},
+		'release-it': {
+			options: {
+				pkgFiles: ['package.json'],
+				commitMessage: 'Release %s',
+				tagName: '%s',
+				tagAnnotation: 'Release %s',
+				buildCommand: false
+			}
 		}
 	});
 
