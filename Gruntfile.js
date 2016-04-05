@@ -6,9 +6,15 @@
  * Licensed under the MIT license.
  */
 
-/*global module */
+/*global module, require */
 
 module.exports = function (grunt) {
+
+	'use strict';
+
+	// load all npm grunt tasks
+	require('load-grunt-tasks')(grunt);
+
 	grunt.initConfig({
 		eslint: {
 			options: {
@@ -29,6 +35,4 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('test', ['eslint']);
 
-	grunt.loadNpmTasks('gruntify-eslint');
-	grunt.loadNpmTasks('grunt-release-it');
 };
