@@ -7,6 +7,9 @@
  */
 
 module.exports = function (grunt) {
+	// load all npm grunt tasks
+	require('load-grunt-tasks')(grunt);
+
 	grunt.initConfig({
 		eslint: {
 			options: {
@@ -18,6 +21,4 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('test', ['eslint']);
 
-	grunt.loadNpmTasks('gruntify-eslint');
-	grunt.loadNpmTasks('grunt-release');
 };
