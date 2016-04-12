@@ -12,6 +12,7 @@ module.exports = function (grunt) {
 
 	'use strict';
 
+	/*eslint global-require:0 */
 	// load all npm grunt tasks
 	require('load-grunt-tasks')(grunt);
 
