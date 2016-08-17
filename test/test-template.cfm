@@ -12,6 +12,10 @@
 <cfelse>
 	<cfinclude template="missing.cfm" />
 	<foo:bar /><baz:smeg />
-	
+
 	<foo:barbaz />
 </cfif>
+
+<cfscript>
+include 'missing.cfm';
+</cfscript>
