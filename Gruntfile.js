@@ -6,18 +6,34 @@
  * Licensed under the MIT license.
  */
 
+/*global module, require */
+
 module.exports = function (grunt) {
+
+	'use strict';
+
+	/*eslint global-require:0 */
+	// load all npm grunt tasks
+	require('load-grunt-tasks')(grunt);
+
 	grunt.initConfig({
 		eslint: {
 			options: {
-				configFile: ".eslintrc.json"
+				configFile: '.eslintrc'
 			},
-			src: ["lib/*.js"]
+			src: ['lib/*.js']
+		},
+		'release-it': {
+			options: {
+				pkgFiles: ['package.json'],
+				commitMessage: 'Release %s',
+				tagName: '%s',
+				tagAnnotation: 'Release %s',
+				buildCommand: false
+			}
 		}
 	});
 
 	grunt.registerTask('test', ['eslint']);
 
-	grunt.loadNpmTasks('gruntify-eslint');
-	grunt.loadNpmTasks('grunt-release');
 };
