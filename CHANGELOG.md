@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2016-08-17
+### Added
+- Support for include statements in cfscript.
+
+
 ## [1.0.0] - 2016-08-17
 ### Added
 - CHANGELOG.md (this file).
@@ -35,6 +40,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt-release for releasing tagged versions.
 
 
+[1.0.0]: https://github.com/timbeadle/cfpathcheck/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/timbeadle/cfpathcheck/compare/0.7.1...1.0.0
 [0.7.1]: https://github.com/timbeadle/cfpathcheck/compare/0.7.0...0.7.1
 [0.7.0]: https://github.com/timbeadle/cfpathcheck/compare/0.6.1...0.7.0
