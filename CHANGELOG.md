@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.0] - 2016-10-03
+### Added
+- Support for single quotes delimiting `<cfimport>` and `<cfinclude>` attributes.
+
 ## [1.1.1] - 2016-08-19
 ### Updated
 - Dynamic paths built with concatenation now supported, and the path winds back to the last slash to find the directory
