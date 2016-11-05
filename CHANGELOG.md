@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.1] - 2016-11-05
+### Updated
+- glob@7.1.1
+- lodash@4.16.6
+- path-is-absolute@1.0.1
+- eslint-plugin-node@3.0.3
+
+### Added
+- node v7 support in .travis.yml
+
 ## [1.2.0] - 2016-10-03
 ### Added
 - Support for single quotes delimiting `<cfimport>` and `<cfinclude>` attributes.
@@ -47,6 +57,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[1.2.1]: https://github.com/timbeadle/cfpathcheck/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/timbeadle/cfpathcheck/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/timbeadle/cfpathcheck/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/timbeadle/cfpathcheck/compare/1.0.0...1.1.0
