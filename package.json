@@ -43,15 +43,15 @@
     "checkstyle-formatter": "^1.0.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.1",
-    "lodash": "^4.16.6",
+    "lodash": "^4.17.4",
     "log-symbols": "^1.0.2",
     "minimist": "^1.2.0",
     "path-is-absolute": "^1.0.1",
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint-plugin-jsdoc": "^2.3.1",
-    "eslint-plugin-node": "^3.0.3",
+    "eslint-plugin-jsdoc": "^2.4.0",
+    "eslint-plugin-node": "^3.0.5",
     "grunt": "^1.0.1",
     "grunt-eslint": "^19.0.0",
     "grunt-release-it": "^1.0.1",
