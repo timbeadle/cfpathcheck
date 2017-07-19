@@ -1,0 +1,14 @@
+root = true
+
+# Universal syntax defaults
+# - UTF-8 for greatest compatibility
+# - Unix-style line endings
+# - always end files with a new line
+# - default to 2-space indentation for most languages
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
