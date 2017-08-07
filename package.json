@@ -39,7 +39,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "chalk": "^2.0.1",
+    "chalk": "^2.1.0",
     "checkstyle-formatter": "^1.0.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.2",
@@ -50,8 +50,8 @@
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^4.2.0",
-    "eslint-plugin-jsdoc": "^3.1.0",
+    "eslint": "^4.4.0",
+    "eslint-plugin-jsdoc": "^3.1.2",
     "eslint-plugin-node": "^5.1.1",
     "grunt": "^1.0.1",
     "grunt-eslint": "^20.0.0",
