@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.0] - 2017-08-07
+### Updated
+- Regex tweaked for namespaceSearch (removed unnecessary escaping)
+- .eslintrc -> .eslintrc.yml
+- chalk@2.1.0
+- glob@7.1.2
+- lodash@4.17.4
+- log-symbols@2.0.0
+- eslint-plugin-jsdoc@3.1.2
+- eslint-plugin-node@5.1.1
+- grunt-eslint@20.0.0
+
+### Added
+- .editorconfig
+- eslint as devDependency
+- node v8 support in .travis.yml
+
 ## [1.2.1] - 2016-11-05
 ### Updated
 - glob@7.1.1
@@ -57,6 +74,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[1.3.0]: https://github.com/timbeadle/cfpathcheck/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/timbeadle/cfpathcheck/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/timbeadle/cfpathcheck/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/timbeadle/cfpathcheck/compare/1.1.0...1.1.1
