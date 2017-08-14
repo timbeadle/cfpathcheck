@@ -8,32 +8,30 @@
 
 /*global module, require */
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
+  "use strict";
 
-	'use strict';
+  /*eslint global-require:0 */
+  // load all npm grunt tasks
+  require("load-grunt-tasks")(grunt);
 
-	/*eslint global-require:0 */
-	// load all npm grunt tasks
-	require('load-grunt-tasks')(grunt);
+  grunt.initConfig({
+    eslint: {
+      options: {
+        configFile: ".eslintrc.yml"
+      },
+      src: ["*.js", "lib/*.js", "bin/*"]
+    },
+    "release-it": {
+      options: {
+        pkgFiles: ["package.json"],
+        commitMessage: "Release %s",
+        tagName: "%s",
+        tagAnnotation: "Release %s",
+        buildCommand: false
+      }
+    }
+  });
 
-	grunt.initConfig({
-		eslint: {
-			options: {
-				configFile: '.eslintrc.yml'
-			},
-			src: ['lib/*.js']
-		},
-		'release-it': {
-			options: {
-				pkgFiles: ['package.json'],
-				commitMessage: 'Release %s',
-				tagName: '%s',
-				tagAnnotation: 'Release %s',
-				buildCommand: false
-			}
-		}
-	});
-
-	grunt.registerTask('test', ['eslint']);
-
+  grunt.registerTask("test", ["eslint"]);
 };

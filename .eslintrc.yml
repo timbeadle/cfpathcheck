@@ -1,6 +1,7 @@
 ---
-  extends: "eslint:recommended"
+  extends: "prettier"
   plugins:
+    - "prettier"
     - "jsdoc"
     - "node"
   env:

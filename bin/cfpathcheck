@@ -1,37 +1,41 @@
 #!/usr/bin/env node
 
-var log = require('verbalize');
-var argv = require('minimist')(process.argv.slice(2));
-var cfpathcheck = require('../lib/cfpathcheck');
+var log = require("verbalize");
+var argv = require("minimist")(process.argv.slice(2));
+var cfpathcheck = require("../lib/cfpathcheck");
 
 /**
  * Everything in the file should be customized
  */
 
 // Verbalize `runner`
-log.runner = 'cf-path-check';
+log.runner = "cf-path-check";
 
 // Use `-f` or `--file` to specify the source file
-var file = argv._[0] || argv.f || argv.file || 'TODO.md';
+var file = argv._[0] || argv.f || argv.file || "TODO.md";
 
 // Use `-r` or `--reporter` to specify the reporter to use
-var reporter = argv._[1] || argv.r || argv.reporter || 'console';
+var reporter = argv._[1] || argv.r || argv.reporter || "console";
 
 var outFile = argv.o || argv.outfile;
 
-
 if (!file) {
-	log.error('Please provide a source file, either as a first argument or with `-s`');
+  log.error(
+    "Please provide a source file, either as a first argument or with `-s`"
+  );
 }
 
 /**
  * Application
  */
-var violations = cfpathcheck.check(file, 'json');
+var violations = cfpathcheck.check(file, "json");
 var output = cfpathcheck.formatter(violations, reporter);
 
 cfpathcheck.writeOutput(output);
 
 if (outFile) {
-	cfpathcheck.writeFile(cfpathcheck.formatter(violations, 'checkstyle'), outFile);
+  cfpathcheck.writeFile(
+    cfpathcheck.formatter(violations, "checkstyle"),
+    outFile
+  );
 }
