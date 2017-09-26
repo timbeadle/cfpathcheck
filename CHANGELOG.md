@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.0] - 2017-09-21
+### Added
+- prettier (eslint ruleset & formatting applied)
+
+### Updated
+- checkstyle-formatter@1.1.0
+- eslint@4.7.1
+- eslint-config-prettier@2.5.0
+- eslint-plugin-prettier@2.3.1
+- grunt-eslint@20.1.0
+- prettier@1.7.0
+
 ## [1.3.0] - 2017-08-07
 ### Updated
 - Regex tweaked for namespaceSearch (removed unnecessary escaping)
@@ -74,6 +86,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[1.4.0]: https://github.com/timbeadle/cfpathcheck/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/timbeadle/cfpathcheck/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/timbeadle/cfpathcheck/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/timbeadle/cfpathcheck/compare/1.1.1...1.2.0
