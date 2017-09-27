@@ -44,7 +44,7 @@
     "crlf": "^1.1.0",
     "glob": "^7.1.2",
     "lodash": "^4.17.4",
-    "log-symbols": "^2.0.0",
+    "log-symbols": "^2.1.0",
     "minimist": "^1.2.0",
     "path-is-absolute": "^1.0.1",
     "verbalize": "^0.2.0"
