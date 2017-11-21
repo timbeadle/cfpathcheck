@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.0] - 2017-11-21
+### Added
+- node_js 9 support in .travis.yml
+
+## Updated
+- chalk@2.3.0
+- log-symbols@2.1.0
+- eslint@4.11.0
+- eslint-config-prettier@2.8.0
+- eslint-plugin-jsdoc@3.2.0
+- eslint-plugin-node@5.2.1
+- prettier@1.8.2
+
 ## [1.4.0] - 2017-09-21
 ### Added
 - prettier (eslint ruleset & formatting applied)
@@ -86,6 +99,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[1.5.0]: https://github.com/timbeadle/cfpathcheck/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/timbeadle/cfpathcheck/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/timbeadle/cfpathcheck/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/timbeadle/cfpathcheck/compare/1.2.0...1.2.1
