@@ -50,16 +50,16 @@
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-prettier": "^2.8.0",
-    "eslint-plugin-jsdoc": "^3.2.0",
+    "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jsdoc": "^3.3.1",
     "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-prettier": "^2.4.0",
     "grunt": "^1.0.1",
     "grunt-eslint": "^20.1.0",
     "grunt-release-it": "^1.0.1",
     "load-grunt-tasks": "^3.5.2",
-    "prettier": "^1.8.2",
+    "prettier": "^1.9.2",
     "verb": "^0.8.10"
   }
 }
