@@ -39,7 +39,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "chalk": "^2.3.1",
+    "chalk": "^2.4.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.2",
