@@ -9,7 +9,7 @@ var cfpathcheck = require("../lib/cfpathcheck");
  */
 
 // Verbalize `runner`
-log.runner = "cf-path-check";
+log.runner = "cfpathcheck";
 
 // Use `-f` or `--file` to specify the source file
 var file = argv._[0] || argv.f || argv.file || "TODO.md";
