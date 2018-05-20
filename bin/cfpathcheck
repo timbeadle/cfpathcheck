@@ -20,9 +20,9 @@ var reporter = argv._[1] || argv.r || argv.reporter || "console";
 var outFile = argv.o || argv.outfile;
 
 if (!file) {
-  log.error(
-    "Please provide a source file, either as a first argument or with `-s`"
-  );
+	log.error(
+		"Please provide a source file, either as a first argument or with `-s`"
+	);
 }
 
 /**
@@ -34,8 +34,8 @@ var output = cfpathcheck.formatter(violations, reporter);
 cfpathcheck.writeOutput(output);
 
 if (outFile) {
-  cfpathcheck.writeFile(
-    cfpathcheck.formatter(violations, "checkstyle"),
-    outFile
-  );
+	cfpathcheck.writeFile(
+		cfpathcheck.formatter(violations, "checkstyle"),
+		outFile
+	);
 }
