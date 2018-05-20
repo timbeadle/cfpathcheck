@@ -43,7 +43,7 @@
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.2",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.10",
     "log-symbols": "^2.2.0",
     "minimist": "^1.2.0",
     "path-is-absolute": "^1.0.1",
