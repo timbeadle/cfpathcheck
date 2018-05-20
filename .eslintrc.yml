@@ -6,6 +6,7 @@
     - "node"
   env:
     node: true
+    es6: true
   rules:
     node/no-missing-import: 2
     node/no-missing-require: 2
