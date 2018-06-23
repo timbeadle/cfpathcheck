@@ -36,7 +36,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "npm run lint",
+    "lint": "eslint --config .eslintrc.yml Gruntfile.js lib/cfpathcheck.js bin/cfpathcheck"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -56,7 +57,6 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.0",
     "grunt": "^1.0.3",
-    "grunt-eslint": "^20.1.0",
     "grunt-release-it": "^1.0.1",
     "load-grunt-tasks": "^4.0.0",
     "prettier": "^1.12.1",
