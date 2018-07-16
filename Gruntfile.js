@@ -8,23 +8,23 @@
 
 /*global module, require */
 
-module.exports = function(grunt) {
-  "use strict";
+module.exports = function (grunt) {
+	"use strict";
 
-  /*eslint global-require:0 */
-  // load all npm grunt tasks
-  require("load-grunt-tasks")(grunt);
+	/*eslint global-require:0 */
+	// load all npm grunt tasks
+	require("load-grunt-tasks")(grunt);
 
-  grunt.initConfig({
-    "release-it": {
-      options: {
-        pkgFiles: ["package.json"],
-        commitMessage: "Release %s",
-        tagName: "%s",
-        tagAnnotation: "Release %s",
-        buildCommand: false
-      }
-    }
-  });
+	grunt.initConfig({
+		"release-it": {
+			options: {
+				pkgFiles: ["package.json"],
+				commitMessage: "Release %s",
+				tagName: "%s",
+				tagAnnotation: "Release %s",
+				buildCommand: false
+			}
+		}
+	});
 
 };
