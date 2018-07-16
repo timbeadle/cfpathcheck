@@ -16,12 +16,6 @@ module.exports = function (grunt) {
 	require("load-grunt-tasks")(grunt);
 
 	grunt.initConfig({
-		eslint: {
-			options: {
-				configFile: ".eslintrc.yml"
-			},
-			src: ["*.js", "lib/*.js", "bin/*"]
-		},
 		"release-it": {
 			options: {
 				pkgFiles: ["package.json"],
@@ -33,5 +27,4 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask("test", ["eslint"]);
 };

@@ -7,6 +7,10 @@
   env:
     node: true
     es6: true
+  parserOptions:
+    ecmaVersion: 6
+    ecmaFeatures:
+      impliedStrict: true
   rules:
     node/no-missing-import: 2
     node/no-missing-require: 2
