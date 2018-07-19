@@ -37,7 +37,7 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --config .eslintrc.yml Gruntfile.js lib/cfpathcheck.js bin/cfpathcheck"
+    "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck"
   },
   "dependencies": {
     "chalk": "^2.4.1",
