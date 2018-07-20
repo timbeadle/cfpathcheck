@@ -1,17 +1,26 @@
 ---
+  env:
+    es6: true
+    node: true
   extends: "prettier"
   plugins:
     - "prettier"
     - "jsdoc"
     - "node"
-  env:
-    node: true
-    es6: true
   parserOptions:
     ecmaVersion: 6
     ecmaFeatures:
       impliedStrict: true
   rules:
+    indent:
+      - error
+      - tab
+    linebreak-style:
+      - error
+      - unix
+    quotes:
+      - error
+      - single
     node/no-missing-import: 2
     node/no-missing-require: 2
     node/no-unpublished-import: 2
