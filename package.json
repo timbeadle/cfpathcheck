@@ -51,12 +51,12 @@
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
+    "eslint": "^5.3.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jsdoc": "^3.7.1",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prettier": "^2.6.2",
-    "prettier": "^1.13.7",
+    "prettier": "^1.14.2",
     "verb": "^0.8.10"
   }
 }
