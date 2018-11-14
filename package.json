@@ -36,7 +36,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "snyk test && npm run lint",
+    "test": "snyk test --dev && npm run lint",
     "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck"
   },
   "dependencies": {
