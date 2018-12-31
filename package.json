@@ -51,7 +51,7 @@
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^5.11.1",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-jsdoc": "^3.9.1",
     "eslint-plugin-node": "^8.0.0",
