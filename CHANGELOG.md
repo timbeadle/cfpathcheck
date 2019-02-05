@@ -2,6 +2,28 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.1] - 2019-02-05
+### Added
+- node_js 11 support in .travis.yml
+- Snyk security monitoring
+- Sonatype DepShield
+
+### Removed
+- grunt
+- grunt-release-it
+- load-grunt-tasks
+- verb
+
+### Updated
+- Some refactoring
+- eslint@5.13.0
+- eslint-config-prettier@4.0.0
+- eslint-plugin-jsdoc@4.1.0
+- eslint-plugin-node@8.0.1
+- eslint-plugin-prettier@3.0.1
+- prettier@1.16.4
+
+
 ## [2.0.0] - 2018-07-16
 ### Added
 - node_js 10 support in .travis.yml
@@ -122,6 +144,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[2.0.1]: https://github.com/timbeadle/cfpathcheck/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/timbeadle/cfpathcheck/compare/1.5.0...2.0.0
 [1.5.0]: https://github.com/timbeadle/cfpathcheck/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/timbeadle/cfpathcheck/compare/1.3.0...1.4.0
