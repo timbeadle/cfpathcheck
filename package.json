@@ -40,7 +40,7 @@
     "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.3",
