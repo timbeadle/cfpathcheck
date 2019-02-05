@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "eslint": "^5.11.1",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-jsdoc": "^4.0.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.1",
