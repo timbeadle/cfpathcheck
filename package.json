@@ -57,6 +57,6 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.17.0",
-    "snyk": "^1.162.1"
+    "snyk": "^1.163.3"
   }
 }
