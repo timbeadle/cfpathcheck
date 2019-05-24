@@ -11,5 +11,3 @@ node_js:
     - "10"
     - "11"
     - "12"
-before_script:
-    - npm install -g grunt-cli
