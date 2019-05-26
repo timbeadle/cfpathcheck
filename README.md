@@ -27,3 +27,7 @@ Static analysis for cfml template import and include paths
 * PATH: The path to a single .cfm file, or to a directory containing .cfm files.
 * REPORTER: use checkstyle to output checkstyle-compatible xml to stdout.
 * OUTFILE: The path to the output file, for integration with (e.g.) Jenkins or other CI servers.
+
+### Release history
+
+* See [CHANGELOG](https://github.com/timbeadle/cfpathcheck/blob/master/CHANGELOG.md).
