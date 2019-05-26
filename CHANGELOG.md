@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.3] - 2019-05-26
+### Updated
+- eslint-plugin-node@9.1.0
+- snyk@1.167.2
+
 ## [3.0.2] - 2019-05-24
 ### Updated
 - Update package.engines to node >=8
