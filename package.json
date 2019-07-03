@@ -37,7 +37,9 @@
   },
   "scripts": {
     "test": "snyk test --dev && npm run lint",
-    "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck"
+    "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -48,7 +50,8 @@
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
     "path-is-absolute": "^2.0.0",
-    "verbalize": "^0.2.0"
+    "verbalize": "^0.2.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -56,7 +59,7 @@
     "eslint-plugin-jsdoc": "^7.2.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.0",
-    "snyk": "^1.171.1"
-  }
+    "prettier": "^1.18.0"
+  },
+  "snyk": true
 }
