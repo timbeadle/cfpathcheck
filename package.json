@@ -50,8 +50,8 @@
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
     "path-is-absolute": "^2.0.0",
-    "verbalize": "^0.2.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.3",
+    "verbalize": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
