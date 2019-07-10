@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.4] - 2019-07-10
+### Added
+- snyk protect
+
+### Updated
+- eslint@6.0.1
+- eslint-config-prettier@6.0.0
+- eslint-plugin-jsdoc@15.2.0
+- lodash@4.17.13
+- prettier@1.18.2
+- snyk@1.192.5
+
 ## [3.0.3] - 2019-05-26
 ### Updated
 - eslint-plugin-node@9.1.0
@@ -175,6 +187,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[3.0.4]: https://github.com/timbeadle/cfpathcheck/compare/3.0.3...3.0.4
 [3.0.3]: https://github.com/timbeadle/cfpathcheck/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/timbeadle/cfpathcheck/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/timbeadle/cfpathcheck/compare/3.0.0...3.0.1
