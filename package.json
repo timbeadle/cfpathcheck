@@ -46,11 +46,11 @@
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "glob": "^7.1.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
     "path-is-absolute": "^2.0.0",
-    "snyk": "^1.192.4",
+    "snyk": "^1.192.5",
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
