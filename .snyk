@@ -17,8 +17,6 @@ patch:
   SNYK-JS-LODASH-450202:
     - lodash:
         patched: '2019-07-06T20:10:18.919Z'
-      snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
-        patched: '2019-07-06T20:12:57.368Z'
     - eslint-plugin-jsdoc > lodash:
         patched: '2019-07-06T20:10:18.919Z'
     - eslint > lodash:
@@ -49,3 +47,5 @@ patch:
         patched: '2019-07-06T20:10:18.919Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-06T20:10:18.919Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-06T20:12:57.368Z'
