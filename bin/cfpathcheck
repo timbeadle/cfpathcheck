@@ -7,7 +7,7 @@ const argv = require('minimist')(process.argv.slice(2));
 const cfpathcheck = require('../lib/cfpathcheck');
 
 /**
- * Everything in the file should be customized
+ * Everything in the file should be customized.
  */
 
 // Verbalize `runner`
@@ -28,7 +28,7 @@ if (!file) {
 }
 
 /**
- * Application
+ * Application.
  */
 const violations = cfpathcheck.check(file, 'json');
 const output = cfpathcheck.formatter(violations, reporter);
