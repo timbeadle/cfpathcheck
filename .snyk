@@ -5,13 +5,13 @@ ignore:
   SNYK-JS-SETVALUE-450213:
     - verbalize > set-value:
         reason: None given
-        expires: '2019-08-05T20:11:09.876Z'
+        expires: '2019-09-13T16:55:02.119Z'
     - verbalize > log-events > set-value:
         reason: None given
-        expires: '2019-08-05T20:11:09.876Z'
+        expires: '2019-09-13T16:55:02.119Z'
     - verbalize > log-events > union-value > set-value:
         reason: None given
-        expires: '2019-08-05T20:11:09.876Z'
+        expires: '2019-09-13T16:55:02.119Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
