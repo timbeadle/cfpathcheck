@@ -49,13 +49,13 @@
     "lodash": "^4.17.15",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
-    "snyk": "^1.216.4",
+    "snyk": "^1.220.0",
     "verbalize": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-jsdoc": "^15.8.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-jsdoc": "^15.8.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2"
