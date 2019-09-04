@@ -2,16 +2,12 @@
 
 'use strict';
 
-const log = require('verbalize');
 const argv = require('minimist')(process.argv.slice(2));
 const cfpathcheck = require('../lib/cfpathcheck');
 
 /**
  * Everything in the file should be customized.
  */
-
-// Verbalize `runner`
-log.runner = 'cfpathcheck';
 
 // Use `-f` or `--file` to specify the source file
 const file = argv._[0] || argv.f || argv.file || 'TODO.md';
@@ -22,7 +18,7 @@ const reporter = argv._[1] || argv.r || argv.reporter || 'console';
 const outFile = argv.o || argv.outfile;
 
 if (!file) {
-	log.error(
+	console.error(
 		'Please provide a source file, either as a first argument or with `-f` or `--file`'
 	);
 }
