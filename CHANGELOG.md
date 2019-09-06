@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.5] - 2019-09-16
+### Added
+- Greenkeeper.io badge
+
+### Updated
+- lodash@4.17.15
+- snyk@1.226.0
+- eslint@6.3.0
+- eslint-config-prettier@6.2.0
+- eslint-plugin-jsdoc@15.9.1
+- eslint-plugin-node@10.0.0
+
+### Removed
+- Verbalize (has security vulnerabilities in its own dependendencies & is unmaintained)
+- pathIsAbsolute (unneeded as node 0.12 is no longer supported)
+
 ## [3.0.4] - 2019-07-10
 ### Added
 - snyk protect
@@ -187,6 +203,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[3.0.5]: https://github.com/timbeadle/cfpathcheck/compare/3.0.4...3.0.5
 [3.0.4]: https://github.com/timbeadle/cfpathcheck/compare/3.0.3...3.0.4
 [3.0.3]: https://github.com/timbeadle/cfpathcheck/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/timbeadle/cfpathcheck/compare/3.0.1...3.0.2
