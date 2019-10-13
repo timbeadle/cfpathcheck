@@ -1,7 +1,7 @@
 {
   "name": "cfpathcheck",
   "description": "Check CFML files for correct paths in cfinclude/cfimport tags",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "homepage": "https://github.com/timbeadle/cfpathcheck",
   "author": {
     "name": "Tim Beadle",
