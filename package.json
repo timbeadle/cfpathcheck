@@ -52,7 +52,7 @@
     "snyk": "^1.242.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-jsdoc": "^16.1.1",
     "eslint-plugin-node": "^10.0.0",
