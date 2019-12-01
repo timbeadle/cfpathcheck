@@ -45,7 +45,7 @@
     "chalk": "^2.4.2",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "lodash": "^4.17.15",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
