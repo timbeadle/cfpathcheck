@@ -45,19 +45,19 @@
     "chalk": "^3.0.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "lodash": "^4.17.15",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
-    "snyk": "^1.251.2"
+    "snyk": "^1.253.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-jsdoc": "^18.0.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jsdoc": "^18.3.0",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "snyk": true
 }
