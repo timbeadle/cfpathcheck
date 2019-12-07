@@ -1,5 +1,11 @@
 {
   "name": "cfpathcheck",
+  "xo": {
+    "env": [
+      "node"
+    ],
+    "prettier": true
+  },
   "description": "Check CFML files for correct paths in cfinclude/cfimport tags",
   "version": "3.0.6",
   "homepage": "https://github.com/timbeadle/cfpathcheck",
@@ -37,7 +43,7 @@
   },
   "scripts": {
     "test": "snyk test --dev && npm run lint",
-    "lint": "eslint --config .eslintrc.yml lib/cfpathcheck.js bin/cfpathcheck",
+    "lint": "xo lib/cfpathcheck.js bin/cfpathcheck",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
@@ -52,12 +58,8 @@
     "snyk": "^1.256.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-jsdoc": "^18.4.1",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "xo": "^0.25.3"
   },
   "snyk": true
 }
