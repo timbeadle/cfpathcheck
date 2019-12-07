@@ -12,6 +12,10 @@ ignore:
     - verbalize > log-events > union-value > set-value:
         reason: None given
         expires: '2019-09-13T16:55:02.119Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        reason: None given
+        expires: '2020-01-06T22:26:16.235Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:

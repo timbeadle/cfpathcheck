@@ -42,8 +42,10 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "snyk test --dev && npm run lint",
-    "lint": "xo lib/cfpathcheck.js bin/cfpathcheck",
+    "test": "snyk test && npm run test:snyk && npm run test:lint && npm run test:unit",
+    "test:lint": "xo lib/cfpathcheck.js bin/cfpathcheck",
+    "test:snyk": "snyk test --dev",
+    "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
@@ -55,9 +57,11 @@
     "lodash": "^4.17.15",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
-    "snyk": "^1.256.0"
+    "snyk": "^1.258.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
     "prettier": "^1.19.1",
     "xo": "^0.25.3"
   },
