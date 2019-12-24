@@ -44,7 +44,7 @@
   "scripts": {
     "test": "snyk test && npm run test:snyk && npm run test:lint && npm run test:unit",
     "test:coverage": "nyc --reporter=lcov npm run test:unit",
-    "test:lint": "xo lib/cfpathcheck.js bin/cfpathcheck",
+    "test:lint": "xo lib/*.js bin/cfpathcheck",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk protect",
