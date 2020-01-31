@@ -16,6 +16,13 @@ ignore:
     - snyk > snyk-sbt-plugin > tree-kill:
         reason: None given
         expires: '2020-01-06T22:26:16.235Z'
+  SNYK-JS-DOTPROP-543489:
+    - configstore > dot-prop:
+        reason: None given
+        expires: '2020-03-01T17:52:21.016Z'
+    - xo > update-notifier > configstore > dot-prop:
+        reason: None given
+        expires: '2020-03-01T17:52:21.016Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
