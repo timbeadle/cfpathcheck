@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-expressions */
-
 const { expect } = require('chai');
 const { describe, it } = require('mocha');
 const utils = require('../lib/utils');
