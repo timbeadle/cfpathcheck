@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0] - 2020-02-23
+### Added
+- npm-run-all for parallel test task running
+
+### Updated
+- mocha@7.0.1
+- nyc@15.0.0
+- snyk@1.296.0
+- xo@0.26.1
+
+### Removed
+- node_js 8 and 9 support
+
 ## [3.1.0] - 2019-12-14
 ### Added
 - xo linter
@@ -227,6 +240,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.0.0]: https://github.com/timbeadle/cfpathcheck/compare/3.1.0...4.0.0
 [3.1.0]: https://github.com/timbeadle/cfpathcheck/compare/3.0.6...3.1.0
 [3.0.6]: https://github.com/timbeadle/cfpathcheck/compare/3.0.5...3.0.6
 [3.0.5]: https://github.com/timbeadle/cfpathcheck/compare/3.0.4...3.0.5
