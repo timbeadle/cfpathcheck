@@ -20,12 +20,12 @@ ignore:
     - configstore > dot-prop:
         reason: None given
         expires: '2020-03-01T17:52:21.016Z'
-      dot-prop:
-        reason: None given
-        expires: '2020-03-15T17:53:47.319Z'
     - xo > update-notifier > configstore > dot-prop:
         reason: None given
         expires: '2020-03-01T17:52:21.016Z'
+    - dot-prop:
+        reason: None given
+        expires: '2020-03-15T17:53:47.319Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
