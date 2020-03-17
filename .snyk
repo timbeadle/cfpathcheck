@@ -40,6 +40,9 @@ ignore:
     - mocha > yargs-parser:
         reason: None given
         expires: '2020-04-16T10:27:07.433Z'
+      mocha > yargs > yargs-parser:
+        reason: None given
+        expires: '2020-04-16T12:14:41.380Z'
     - xo > meow > yargs-parser:
         reason: None given
         expires: '2020-04-16T10:27:07.433Z'
