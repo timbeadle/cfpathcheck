@@ -26,6 +26,23 @@ ignore:
     - dot-prop:
         reason: None given
         expires: '2020-03-15T17:53:47.319Z'
+  SNYK-JS-MINIMIST-559764:
+    - mocha > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T10:27:07.433Z'
+    - xo > eslint > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T10:27:07.433Z'
+    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T10:27:07.433Z'
+  SNYK-JS-YARGSPARSER-560381:
+    - mocha > yargs-parser:
+        reason: None given
+        expires: '2020-04-16T10:27:07.433Z'
+    - xo > meow > yargs-parser:
+        reason: None given
+        expires: '2020-04-16T10:27:07.433Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
