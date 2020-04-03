@@ -42,13 +42,16 @@ ignore:
         expires: '2020-04-16T10:27:07.433Z'
       xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-04-17T17:04:12.505Z'
+        expires: '2020-05-03T15:57:09.096Z'
     - xo > meow > yargs-parser:
         reason: None given
         expires: '2020-04-16T10:27:07.433Z'
     - mocha > yargs > yargs-parser:
         reason: None given
         expires: '2020-04-16T12:14:41.380Z'
+    - xo > meow > yargs-parser:
+        reason: None given
+        expires: '2020-04-17T17:04:12.505Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
