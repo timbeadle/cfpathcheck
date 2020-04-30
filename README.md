@@ -9,7 +9,7 @@ Static analysis for cfml template import and include paths
 [![devDependency Status](https://david-dm.org/timbeadle/cfpathcheck/dev-status.svg)](https://david-dm.org/timbeadle/cfpathcheck#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/timbeadle/cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/cfpathcheck)
 [![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/cfpathcheck/depshield.svg)](https://depshield.github.io)
-[![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/cfpathcheck/badge.svg)](https://snyk.io/test/github/timbeadle/cfpathcheck) [![Greenkeeper badge](https://badges.greenkeeper.io/timbeadle/cfpathcheck.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/cfpathcheck/badge.svg)](https://snyk.io/test/github/timbeadle/cfpathcheck)
 
 ## Installation
 
