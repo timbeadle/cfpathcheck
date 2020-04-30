@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.0] - 2020-04-30
+### Added
+- node_js v14 support
+- Github workflow for running tests
+
+### Updated
+- Modified lib/{cfpathcheck,utils}.js to conform to updated xo linting rules
+- chalk@4.0.0
+- log-symbols@4.0.0
+- minimist@1.2.5
+- mocha@7.1.2
+- nyc@15.0.1
+- prettier@2.0.5
+- snyk@1.315.1
+- xo@0.30.0
+
+### Removed
+- Greenkeeper badge (retired)
+
 ## [4.0.0] - 2020-02-23
 ### Added
 - npm-run-all for parallel test task running
@@ -240,6 +259,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.1.0]: https://github.com/timbeadle/cfpathcheck/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/timbeadle/cfpathcheck/compare/3.1.0...4.0.0
 [3.1.0]: https://github.com/timbeadle/cfpathcheck/compare/3.0.6...3.1.0
 [3.0.6]: https://github.com/timbeadle/cfpathcheck/compare/3.0.5...3.0.6
