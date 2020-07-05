@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.2.0] - 2020-07-05
+### Added
+- travis-ci.com for test and build
+
+### Updated
+- snyk policy for dependency vulnerabilities
+- chalk@4.1.0
+- mocha@8.0.1
+- nyc@15.1.0
+- snyk@1.360.0
+- xo@0.32.1
+
+### Removed
+- Unused catch argument
+- travis-ci.org test/build
+
 ## [4.1.0] - 2020-04-30
 ### Added
 - node_js v14 support
