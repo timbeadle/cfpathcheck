@@ -73,21 +73,21 @@ describe('utils', () => {
 
 		it('returns an array', () => {
 			const line = '\t\t\t<foo:bar x="y" />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/g);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/g);
 
 			expect(result).to.be.an.instanceOf(Array);
 		});
 
 		it('finds matches when regex is global', () => {
 			const line = '\t\t\t<foo:bar x="y" /><biz:bosh />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/g);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/g);
 
 			expect(result.length).to.equal(2);
 		});
 
 		it('finds one match when regex is not global', () => {
 			const line = '\t\t\t<foo:bar x="y" />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/);
 
 			expect(result.length).to.equal(1);
 		});
