@@ -74,7 +74,7 @@ ignore:
   SNYK-JS-SERIALIZEJAVASCRIPT-570062:
     - mocha > serialize-javascript:
         reason: None given
-        expires: '2020-08-04T10:01:59.091Z'
+        expires: '2020-08-07T15:05:07.486Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -120,248 +120,246 @@ patch:
   SNYK-JS-LODASH-567746:
     - snyk > lodash:
         patched: '2020-04-30T20:53:13.835Z'
-      xo > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > lodash:
-        patched: '2020-04-30T20:53:13.835Z'
       mocha > yargs-unparser > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - mocha > yargs-unparser > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - mocha > yargs-unparser > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/ruby-semver > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/dep-graph > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > inquirer > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/ruby-semver > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-config > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > inquirer > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint > table > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-config > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-nuget-plugin > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint-import-resolver-webpack > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint-plugin-unicorn > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint > inquirer > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint > table > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint > inquirer > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint > table > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
-    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
       nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
-        patched: '2020-07-05T10:01:22.651Z'
+        patched: '2020-07-08T15:04:42.577Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T20:53:13.835Z'
+      xo > lodash:
+        patched: '2020-07-08T15:04:42.577Z'
     - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
-      lodash:
-        patched: '2020-07-05T10:01:22.651Z'
     - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
         patched: '2020-04-30T20:53:13.835Z'
     - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
@@ -760,3 +758,125 @@ patch:
         patched: '2020-06-17T20:52:57.083Z'
     - lodash:
         patched: '2020-06-17T20:52:57.083Z'
+    - xo > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:01:22.651Z'
+    - lodash:
+        patched: '2020-07-05T10:01:22.651Z'
