@@ -55,8 +55,8 @@
     "chalk": "^4.1.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
+    "deep-equal": "^2.0.3",
     "glob": "^7.1.6",
-    "lodash": "^4.17.15",
     "log-symbols": "^4.0.0",
     "minimist": "^1.2.5",
     "snyk": "^1.360.0"
