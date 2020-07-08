@@ -22,7 +22,7 @@ describe('utils', () => {
 				}
 			];
 
-			expect(utils.containsObject(needle, haystack)).to.be.true;
+			expect(utils.containsObject(needle, haystack)).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns false when object is not found in array', () => {
@@ -38,7 +38,7 @@ describe('utils', () => {
 				}
 			];
 
-			expect(utils.containsObject(needle, haystack)).to.be.false;
+			expect(utils.containsObject(needle, haystack)).to.be.false; // eslint-disable-line no-unused-expressions
 		});
 	});
 
@@ -50,19 +50,19 @@ describe('utils', () => {
 		it('returns true when an XML prolog is found', () => {
 			const result = utils.checkIsXMLFile('<?xml version="1.0"?>');
 
-			expect(result).to.be.true;
+			expect(result).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns true when an XML content-type is found', () => {
 			const result = utils.checkIsXMLFile('<foo type="text/xml">');
 
-			expect(result).to.be.true;
+			expect(result).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns false when neither an XML prolog nor content-type is found', () => {
 			const result = utils.checkIsXMLFile('<issues>');
 
-			expect(result).to.be.false;
+			expect(result).to.be.false; // eslint-disable-line no-unused-expressions
 		});
 	});
 
