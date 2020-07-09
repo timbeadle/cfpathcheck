@@ -45,7 +45,7 @@
     "test": "run-p test:snyk test:lint test:unit",
     "test:ci": "run-p test:lint test:unit",
     "test:coverage": "nyc --reporter=lcov npm run test:unit",
-    "test:lint": "xo lib/*.js bin/cfpathcheck",
+    "test:lint": "xo {lib,test}/*.js bin/cfpathcheck",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk protect",
@@ -55,8 +55,8 @@
     "chalk": "^4.1.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
+    "deep-equal": "^2.0.3",
     "glob": "^7.1.6",
-    "lodash": "^4.17.17",
     "log-symbols": "^4.0.0",
     "minimist": "^1.2.5",
     "snyk": "^1.360.0"

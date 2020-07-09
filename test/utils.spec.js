@@ -22,7 +22,7 @@ describe('utils', () => {
 				}
 			];
 
-			expect(utils.containsObject(needle, haystack)).to.be.true;
+			expect(utils.containsObject(needle, haystack)).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns false when object is not found in array', () => {
@@ -38,7 +38,7 @@ describe('utils', () => {
 				}
 			];
 
-			expect(utils.containsObject(needle, haystack)).to.be.false;
+			expect(utils.containsObject(needle, haystack)).to.be.false; // eslint-disable-line no-unused-expressions
 		});
 	});
 
@@ -50,19 +50,19 @@ describe('utils', () => {
 		it('returns true when an XML prolog is found', () => {
 			const result = utils.checkIsXMLFile('<?xml version="1.0"?>');
 
-			expect(result).to.be.true;
+			expect(result).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns true when an XML content-type is found', () => {
 			const result = utils.checkIsXMLFile('<foo type="text/xml">');
 
-			expect(result).to.be.true;
+			expect(result).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
 		it('returns false when neither an XML prolog nor content-type is found', () => {
 			const result = utils.checkIsXMLFile('<issues>');
 
-			expect(result).to.be.false;
+			expect(result).to.be.false; // eslint-disable-line no-unused-expressions
 		});
 	});
 
@@ -73,21 +73,21 @@ describe('utils', () => {
 
 		it('returns an array', () => {
 			const line = '\t\t\t<foo:bar x="y" />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/g);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/g);
 
 			expect(result).to.be.an.instanceOf(Array);
 		});
 
 		it('finds matches when regex is global', () => {
 			const line = '\t\t\t<foo:bar x="y" /><biz:bosh />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/g);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/g);
 
 			expect(result.length).to.equal(2);
 		});
 
 		it('finds one match when regex is not global', () => {
 			const line = '\t\t\t<foo:bar x="y" />';
-			const result = utils.matchAll(line, /<([A-Za-z0-9]+):/);
+			const result = utils.matchAll(line, /<([A-Za-z\d]+):/);
 
 			expect(result.length).to.equal(1);
 		});
