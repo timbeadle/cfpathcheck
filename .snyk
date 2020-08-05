@@ -256,6 +256,10 @@ ignore:
     - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         reason: None given
         expires: '2020-08-07T15:18:31.433Z'
+  SNYK-JS-FLAT-596927:
+    - mocha > yargs-unparser > flat:
+        reason: None given
+        expires: '2020-09-04T13:03:29.511Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
