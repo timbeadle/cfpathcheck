@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.3.0] - 2020-08-13
+### Added
+- deepEqual (used instead of lodash.isEqual)
+- Linting of test scripts, with annotations to squish some warnings
+- Further .snyk policy changes to ignore certain vulns
+
+### Updated
+- mocha@8.1.1
+- snyk@1.373.1
+- xo@0.33.0
+
+### Removed
+- lodash
+
 ## [4.2.0] - 2020-07-05
 ### Added
 - travis-ci.com for test and build
@@ -275,6 +289,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/cfpathcheck/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/timbeadle/cfpathcheck/compare/3.1.0...4.0.0
