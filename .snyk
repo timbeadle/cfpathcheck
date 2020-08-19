@@ -259,7 +259,7 @@ ignore:
   SNYK-JS-FLAT-596927:
     - mocha > yargs-unparser > flat:
         reason: None given
-        expires: '2020-09-04T13:03:29.511Z'
+        expires: '2020-09-18T08:53:23.253Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
