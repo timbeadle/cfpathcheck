@@ -55,7 +55,7 @@
     "chalk": "^4.1.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
-    "deep-equal": "^2.0.3",
+    "deep-equal": "^2.0.4",
     "glob": "^7.1.6",
     "log-symbols": "^4.0.0",
     "minimist": "^1.2.5",
