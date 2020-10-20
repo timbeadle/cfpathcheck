@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.4.0] - 2020-10-20
+### Added
+- node_js 15 support
+- xo badge
+
+### Updated
+- cfpathcheck.formatter(): use a ternary
+- deep-equal@2.0.4
+- mocha@8.2.0
+- prettier@2.1.2
+- snyk@1.419.0
+- xo@0.34.1
+
 ## [4.3.0] - 2020-08-13
 ### Added
 - deepEqual (used instead of lodash.isEqual)
@@ -289,6 +302,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/cfpathcheck/compare/4.0.0...4.1.0
