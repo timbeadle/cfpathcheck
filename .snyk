@@ -263,7 +263,7 @@ ignore:
   SNYK-JS-PATHVAL-596926:
     - chai > pathval:
         reason: None given
-        expires: '2020-11-27T10:04:51.161Z'
+        expires: '2020-12-02T16:02:22.264Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
