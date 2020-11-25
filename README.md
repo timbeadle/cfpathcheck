@@ -6,8 +6,6 @@ Static analysis for cfml template import and include paths
 [![Downloads/month](https://img.shields.io/npm/dm/cfpathcheck.svg)](https://www.npmjs.com/package/cfpathcheck)
 [![Build Status](https://github.com/timbeadle/cfpathcheck/workflows/Node.js%20CI/badge.svg)](https://github.com/timbeadle/cfpathcheck)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![Dependency Status](https://david-dm.org/timbeadle/cfpathcheck.svg)](https://david-dm.org/timbeadle/cfpathcheck)
-[![devDependency Status](https://david-dm.org/timbeadle/cfpathcheck/dev-status.svg)](https://david-dm.org/timbeadle/cfpathcheck#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/timbeadle/cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/cfpathcheck)
 [![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/cfpathcheck/depshield.svg)](https://depshield.github.io)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/cfpathcheck/badge.svg)](https://snyk.io/test/github/timbeadle/cfpathcheck)
