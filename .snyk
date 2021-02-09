@@ -271,6 +271,22 @@ ignore:
     - nyc > yargs > y18n:
         reason: None given
         expires: '2020-12-25T10:48:28.356Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - mocha > chokidar > glob-parent:
+        reason: None given
+        expires: '2021-03-10T16:29:44.064Z'
+    - xo > eslint > glob-parent:
+        reason: None given
+        expires: '2021-03-10T16:29:44.064Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-10T16:29:44.064Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-10T16:29:44.064Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-10T16:29:44.064Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
