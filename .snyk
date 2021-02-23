@@ -274,19 +274,585 @@ ignore:
   SNYK-JS-GLOBPARENT-1016905:
     - mocha > chokidar > glob-parent:
         reason: None given
-        expires: '2021-03-10T16:29:44.064Z'
+        expires: '2021-03-24T12:04:02.041Z'
     - xo > eslint > glob-parent:
         reason: None given
-        expires: '2021-03-10T16:29:44.064Z'
+        expires: '2021-03-24T12:04:02.041Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-03-10T16:29:44.064Z'
+        expires: '2021-03-24T12:04:02.041Z'
     - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-03-10T16:29:44.064Z'
+        expires: '2021-03-24T12:04:02.041Z'
     - xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-03-10T16:29:44.064Z'
+        expires: '2021-03-24T12:04:02.041Z'
+  SNYK-JS-LODASH-1018905:
+    - xo > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.041Z'
+    - xo > @typescript-eslint/eslint-plugin > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.041Z'
+    - xo > eslint > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint > @eslint/eslintrc > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint > table > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.049Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.049Z'
+  SNYK-JS-LODASH-1040724:
+    - xo > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.041Z'
+    - xo > @typescript-eslint/eslint-plugin > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.041Z'
+    - xo > eslint > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint > @eslint/eslintrc > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint > table > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.042Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.043Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.044Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.045Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.046Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.047Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.048Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.049Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.049Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2021-03-24T12:04:02.049Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
