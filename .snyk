@@ -277,7 +277,7 @@ ignore:
         expires: '2021-03-24T12:04:02.041Z'
       xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-04-16T10:25:18.746Z'
+        expires: '2021-04-23T21:03:38.182Z'
     - xo > eslint > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
@@ -290,6 +290,9 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-16T10:25:18.746Z'
   SNYK-JS-LODASH-1018905:
     - xo > lodash:
         reason: None given
@@ -856,6 +859,19 @@ ignore:
     - xo > eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         reason: None given
         expires: '2021-03-24T12:04:02.049Z'
+  SNYK-JS-HOSTEDGITINFO-1088355:
+    - npm-run-all > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:03:38.182Z'
+    - xo > eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:03:38.182Z'
+    - xo > eslint-plugin-unicorn > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:03:38.182Z'
+    - xo > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:03:38.182Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
