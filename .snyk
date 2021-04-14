@@ -277,7 +277,7 @@ ignore:
         expires: '2021-03-24T12:04:02.041Z'
       xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-04-23T21:03:38.182Z'
+        expires: '2021-05-14T11:18:30.418Z'
     - xo > eslint > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
@@ -293,6 +293,9 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-04-16T10:25:18.746Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-23T21:03:38.182Z'
   SNYK-JS-LODASH-1018905:
     - xo > lodash:
         reason: None given
