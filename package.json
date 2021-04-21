@@ -39,7 +39,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "test": "run-p test:snyk test:lint test:unit",
