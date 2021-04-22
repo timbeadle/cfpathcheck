@@ -1,5 +1,6 @@
 {
   "name": "cfpathcheck",
+  "type": "module",
   "xo": {
     "env": [
       "node"
