@@ -35,9 +35,7 @@
     "static analysis"
   ],
   "preferGlobal": true,
-  "bin": {
-    "cfpathcheck": "./bin/cfpathcheck"
-  },
+  "bin": "./bin/cli.js",
   "main": "index.js",
   "engines": {
     "node": ">=12"
