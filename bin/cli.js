@@ -2,9 +2,10 @@
 
 'use strict';
 
-const argv = require('minimist')(process.argv.slice(2));
-const cfpathcheck = require('../lib/cfpathcheck');
+import minimist from 'minimist';
+import { check, formatter, writeOutput, writeFile } from '../lib/cfpathcheck.js';
 
+const argv = minimist(process.argv.slice(2));
 /**
  * Everything in the file should be customized.
  */
@@ -26,14 +27,14 @@ if (!file) {
 /**
  * Application.
  */
-const violations = cfpathcheck.check(file, 'json');
-const output = cfpathcheck.formatter(violations, reporter);
+const violations = check(file, 'json');
+const output = formatter(violations, reporter);
 
-cfpathcheck.writeOutput(output);
+writeOutput(output);
 
 if (outFile) {
-	cfpathcheck.writeFile(
-		cfpathcheck.formatter(violations, 'checkstyle'),
+	writeFile(
+		formatter(violations, 'checkstyle'),
 		outFile
 	);
 }

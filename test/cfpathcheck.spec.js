@@ -1,68 +1,68 @@
-const { expect } = require('chai');
-const { describe, it } = require('mocha');
-const cfpathcheck = require('../lib/cfpathcheck');
+import { expect } from 'chai';
+import { describe, it } from 'mocha';
+import { check, checkFile, comparePrefixArrays, formatter, getFiles, readFile, writeFile, writeOutput } from '../lib/cfpathcheck.js';
 
 describe('cfpathcheck', () => {
 
 	describe('check', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.check).to.be.an.instanceOf(Function);
+			expect(check).to.be.an.instanceOf(Function);
 		});
 	});
 
 	describe('checkFile', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.checkFile).to.be.an.instanceOf(Function);
+			expect(checkFile).to.be.an.instanceOf(Function);
 		});
 	});
 
 	describe('comparePrefixArrays', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.comparePrefixArrays).to.be.an.instanceOf(Function);
+			expect(comparePrefixArrays).to.be.an.instanceOf(Function);
 		});
 	});
 
 	describe('formatter', () => {
-		const violations = cfpathcheck.check('./test/test-template.cfm', 'json');
+		const violations = check('./test/test-template.cfm', 'json');
 
 		it('is a function', () => {
-			expect(cfpathcheck.formatter).to.be.an.instanceOf(Function);
+			expect(formatter).to.be.an.instanceOf(Function);
 		});
 
 		it('returns a non-zero length string when using checkstyle', () => {
-			expect(cfpathcheck.formatter(violations, 'checkstyle').length).to.be.above(0);
+			expect(formatter(violations, 'checkstyle').length).to.be.above(0);
 		});
 
 		it('returns an array when not using checkstyle', () => {
-			expect(cfpathcheck.formatter(violations, 'plain')).to.be.an.instanceOf(Array);
+			expect(formatter(violations, 'plain')).to.be.an.instanceOf(Array);
 		});
 	});
 
 	describe('getFiles', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.getFiles).to.be.an.instanceOf(Function);
+			expect(getFiles).to.be.an.instanceOf(Function);
 		});
 	});
 
 	describe('readFile', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.readFile).to.be.an.instanceOf(Function);
+			expect(readFile).to.be.an.instanceOf(Function);
 		});
 
 		it('can read a file', () => {
-			expect(cfpathcheck.readFile('./test/test-template.cfm').length).to.equal(562);
+			expect(readFile('./test/test-template.cfm').length).to.equal(562);
 		});
 	});
 
 	describe('writeFile', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.writeFile).to.be.an.instanceOf(Function);
+			expect(writeFile).to.be.an.instanceOf(Function);
 		});
 	});
 
 	describe('writeOutput', () => {
 		it('is a function', () => {
-			expect(cfpathcheck.writeOutput).to.be.an.instanceOf(Function);
+			expect(writeOutput).to.be.an.instanceOf(Function);
 		});
 	});
 
