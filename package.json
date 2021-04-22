@@ -1,5 +1,6 @@
 {
   "name": "cfpathcheck",
+  "type": "module",
   "xo": {
     "env": [
       "node"
@@ -34,10 +35,8 @@
     "static analysis"
   ],
   "preferGlobal": true,
-  "bin": {
-    "cfpathcheck": "./bin/cfpathcheck"
-  },
-  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "main": "./lib/cfpathcheck.js",
   "engines": {
     "node": ">=12"
   },
