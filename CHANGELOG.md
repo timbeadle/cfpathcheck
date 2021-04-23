@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.0] - 2021-04-22
+### Added
+- node_js 16 support
+- dependabot and codeql scanning
+- Github build badge
+
+### Updated
+- BREAKING CHANGE - this is now an ES Module, and now requires node_js 12 or above
+- chalk@4.1.1
+- log-symbols@5.0.0
+- snyk@1.563.0
+- mocha@8.3.2
+- prettier@2.2.0
+- xo@0.39.1
+
+### Removed
+- node_js 10, 13 support
+- david-dm badges
+- TravisCI build badge
+
 ## [4.4.0] - 2020-10-20
 ### Added
 - node_js 15 support
@@ -302,6 +322,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
