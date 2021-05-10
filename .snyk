@@ -275,15 +275,21 @@ ignore:
     - mocha > chokidar > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
-      xo > globby > fast-glob > glob-parent:
+      fast-glob > glob-parent:
         reason: None given
-        expires: '2021-05-14T11:18:30.418Z'
+        expires: '2021-06-09T11:05:19.140Z'
     - xo > eslint > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
+      globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
+      xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
     - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
@@ -296,6 +302,9 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-04-23T21:03:38.182Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-05-14T11:18:30.418Z'
   SNYK-JS-LODASH-1018905:
     - xo > lodash:
         reason: None given
@@ -875,6 +884,68 @@ ignore:
     - xo > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
         reason: None given
         expires: '2021-04-23T21:03:38.182Z'
+  SNYK-JS-BROWSERSLIST-1090194:
+    - webpack > browserslist:
+        reason: None given
+        expires: '2021-06-09T11:05:19.139Z'
+    - eslint-plugin-unicorn > eslint-template-visitor > @babel/core > @babel/helper-compilation-targets > browserslist:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+  SNYK-JS-PATHPARSE-1077067:
+    - eslint-import-resolver-node > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-import-resolver-webpack > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-plugin-import > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-plugin-node > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-plugin-import > eslint-import-resolver-node > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > eslint-import-resolver-webpack > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > eslint-plugin-import > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > eslint-plugin-node > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - meow > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > eslint-plugin-import > eslint-import-resolver-node > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - npm-run-all > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > meow > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - eslint-plugin-unicorn > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.141Z'
+    - meow > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.141Z'
+    - xo > eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.141Z'
+    - xo > eslint-plugin-unicorn > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.141Z'
+    - xo > meow > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: None given
+        expires: '2021-06-09T11:05:19.141Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
