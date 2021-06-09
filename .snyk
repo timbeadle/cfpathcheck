@@ -275,21 +275,15 @@ ignore:
     - mocha > chokidar > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
-      fast-glob > glob-parent:
+      xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-06-09T11:05:19.140Z'
+        expires: '2021-07-09T15:17:51.268Z'
     - xo > eslint > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
-      globby > fast-glob > glob-parent:
-        reason: None given
-        expires: '2021-06-09T11:05:19.140Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
-      xo > globby > fast-glob > glob-parent:
-        reason: None given
-        expires: '2021-06-09T11:05:19.140Z'
     - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
@@ -305,6 +299,15 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-05-14T11:18:30.418Z'
+    - fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-06-09T11:05:19.140Z'
   SNYK-JS-LODASH-1018905:
     - xo > lodash:
         reason: None given
