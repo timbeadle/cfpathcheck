@@ -3,7 +3,7 @@
 import minimist from 'minimist';
 import { check, formatter, writeOutput, writeFile } from '../lib/cfpathcheck.js';
 
-const argv = minimist(process.argv.slice(2));
+const argv = minimist(process.argv.slice(2)); // eslint-disable-line node/prefer-global/process
 /**
  * Everything in the file should be customized.
  */
