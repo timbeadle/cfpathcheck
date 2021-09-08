@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.22.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-SETVALUE-450213:
@@ -275,9 +275,6 @@ ignore:
     - mocha > chokidar > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
-      xo > globby > fast-glob > glob-parent:
-        reason: None given
-        expires: '2021-08-13T10:17:15.793Z'
     - xo > eslint > glob-parent:
         reason: None given
         expires: '2021-03-24T12:04:02.041Z'
@@ -311,6 +308,9 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-07-09T15:17:51.268Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-08-13T10:17:15.793Z'
   SNYK-JS-LODASH-1018905:
     - xo > lodash:
         reason: None given
