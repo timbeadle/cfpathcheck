@@ -29,4 +29,4 @@ Static analysis for cfml template import and include paths
 
 ### Release history
 
-* See [CHANGELOG](https://github.com/timbeadle/cfpathcheck/blob/master/CHANGELOG.md).
+* See [CHANGELOG](https://github.com/timbeadle/cfpathcheck/blob/main/CHANGELOG.md).
