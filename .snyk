@@ -995,6 +995,10 @@ ignore:
     - nyc > yargs > cliui > wrap-ansi > string-width > strip-ansi > ansi-regex:
         reason: None given
         expires: '2021-11-05T13:22:16.460Z'
+  SNYK-JS-NANOID-2332193:
+    - mocha > nanoid:
+        reason: None given
+        expires: '2022-02-11T13:41:21.814Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
