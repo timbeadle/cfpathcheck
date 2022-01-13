@@ -47,18 +47,18 @@
     "test:lint": "xo {bin,lib,test}/*.js",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
+    "@snyk/protect": "^1.826.0",
     "chalk": "^5.0.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
     "deep-equal": "^2.0.5",
     "glob": "^7.2.0",
     "log-symbols": "^5.1.0",
-    "minimist": "^1.2.5",
-    "snyk": "^1.824.0"
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "@types/checkstyle-formatter": "^1.0.0",
