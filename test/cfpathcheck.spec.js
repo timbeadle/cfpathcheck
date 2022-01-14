@@ -3,7 +3,6 @@ import { describe, it } from 'mocha';
 import * as cfpathcheck from '../lib/cfpathcheck.js';
 
 describe('cfpathcheck', () => {
-
 	describe('check', () => {
 		it('is a function', () => {
 			expect(cfpathcheck.check).to.be.an.instanceOf(Function);
@@ -65,5 +64,4 @@ describe('cfpathcheck', () => {
 			expect(cfpathcheck.writeOutput).to.be.an.instanceOf(Function);
 		});
 	});
-
 });
