@@ -3,7 +3,7 @@
 import minimist from 'minimist';
 import { check, formatter, writeOutput, writeFile } from '../lib/cfpathcheck.js';
 
-const argv = minimist(process.argv.slice(2)); // eslint-disable-line node/prefer-global/process
+const argv = minimist(process.argv.slice(2));
 /**
  * Everything in the file should be customized.
  */
@@ -17,9 +17,7 @@ const reporter = argv._[1] || argv.r || argv.reporter || 'console';
 const outFile = argv.o || argv.outfile;
 
 if (!file) {
-	console.error(
-		'Please provide a source file, either as a first argument or with `-f` or `--file`'
-	);
+	console.error('Please provide a source file, either as a first argument or with `-f` or `--file`');
 }
 
 /**
@@ -31,8 +29,5 @@ const output = formatter(violations, reporter);
 writeOutput(output);
 
 if (outFile) {
-	writeFile(
-		formatter(violations, 'checkstyle'),
-		outFile
-	);
+	writeFile(formatter(violations, 'checkstyle'), outFile);
 }

@@ -3,7 +3,6 @@ import { describe, it } from 'mocha';
 import * as utils from '../lib/utils.js';
 
 describe('utils', () => {
-
 	describe('containsObject', () => {
 		it('is a function', () => {
 			expect(utils.containsObject).to.be.an.instanceOf(Function);
@@ -19,7 +18,7 @@ describe('utils', () => {
 				{
 					foo: 'bar',
 					baz: 'quux',
-				}
+				},
 			];
 
 			expect(utils.containsObject(needle, haystack)).to.be.true; // eslint-disable-line no-unused-expressions
@@ -35,7 +34,7 @@ describe('utils', () => {
 				{
 					bar: 'foo',
 					quux: 'baz',
-				}
+				},
 			];
 
 			expect(utils.containsObject(needle, haystack)).to.be.false; // eslint-disable-line no-unused-expressions
@@ -92,5 +91,4 @@ describe('utils', () => {
 			expect(result.length).to.equal(1);
 		});
 	});
-
 });
