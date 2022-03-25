@@ -2,6 +2,38 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.1] - 2022-03-25
+### Added
+- node_js 17 support
+- eslint
+- @snyk/protect
+- @types/chai
+- @types/checkstyle-formatter
+- @types/deep-equal
+- @types/glob
+- @types/minimist
+- @types/mocha
+
+### Updated
+- Link to CHANGELOG now correctly references the `main` tree
+- Some code style revisions to match xo, then eslint style rules
+- chalk@5.0.1
+- chai@4.3.4
+- crlf@1.1.1
+- deep-equal@2.0.5
+- eslint-config-xo@0.40.0
+- eslint-plugin-import@2.25.4
+- eslint@8.10.0
+- glob@7.2.0
+- log-symbols@5.1.0
+- minimist@1.2.6
+- mocha@9.1.3
+- prettier@2.6.1
+
+### Removed
+- xo
+- snyk
+
 ## [5.0.0] - 2021-04-22
 ### Added
 - node_js 16 support
@@ -322,6 +354,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
