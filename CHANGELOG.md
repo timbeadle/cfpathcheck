@@ -1,6 +1,17 @@
 # Change Log
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+This project adheres to [Semantic Versioning](https://semver.org/).
+
+## [5.0.2] - 2022-03-25
+### Added
+- nodejs v18 test run
+
+### Updated
+- @types/chai@4.3.1
+- glob@8.0.1
+
+### Removed
+- nodejs v12 test run (but should still work)
 
 ## [5.0.1] - 2022-03-25
 ### Added
@@ -354,6 +365,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
