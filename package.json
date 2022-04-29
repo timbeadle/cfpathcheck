@@ -29,7 +29,7 @@
   ],
   "preferGlobal": true,
   "bin": "./bin/cli.js",
-  "main": "index.js",
+  "main": "./lib/cfpathcheck.js",
   "engines": {
     "node": ">=10"
   },
