@@ -40,18 +40,18 @@
     "test:lint": "eslint {bin,lib,test}/*.js",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
+    "@snyk/protect": "^1.882.0",
     "chalk": "^4.1.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "deep-equal": "^2.0.5",
     "glob": "^7.1.6",
     "log-symbols": "^4.0.0",
-    "minimist": "^1.2.6",
-    "snyk": "^1.419.0"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "@types/chai": "^4.3.0",
