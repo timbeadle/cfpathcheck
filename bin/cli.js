@@ -19,7 +19,7 @@ const outFile = argv.o || argv.outfile;
 
 if (!file) {
 	console.error(
-		'Please provide a source file, either as a first argument or with `-f` or `--file`'
+		'Please provide a source file, either as a first argument or with `-f` or `--file`',
 	);
 }
 
@@ -34,6 +34,6 @@ cfpathcheck.writeOutput(output);
 if (outFile) {
 	cfpathcheck.writeFile(
 		cfpathcheck.formatter(violations, 'checkstyle'),
-		outFile
+		outFile,
 	);
 }
