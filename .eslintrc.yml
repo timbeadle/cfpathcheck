@@ -6,7 +6,7 @@ extends:
   - plugin:import/recommended
 parserOptions:
   ecmaVersion: 13
-  sourceType: module
+  sourceType: script
 plugins:
   - import
 rules:
