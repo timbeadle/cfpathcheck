@@ -58,7 +58,7 @@
     "deep-equal": "^2.0.5",
     "glob": "^7.1.6",
     "log-symbols": "^4.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "snyk": "^1.419.0"
   },
   "devDependencies": {
