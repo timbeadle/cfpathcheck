@@ -2,6 +2,39 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.5.0] - 2022-05-03
+### Added
+- dependabot
+- codeql analysis
+- NodeJS 16.x, 18.x test runs
+- @snyk/protect
+- @types/chai
+- @types/checkstyle-formatter
+- @types/deep-equal
+- @types/glob
+- @types/mocha
+- eslint
+- eslint-config-xo
+- eslint-plugin-import
+- ls-engines
+
+### Updated
+- https Semver link
+- bin/{cfpathcheck -> cli/js}
+- {test -> fixtures}/test-template.cfm
+- Various eslint code style issues fixed
+- chai@4.3.6
+- deep-equal@2.0.5
+- minimist@1.2.6
+- mocha@10.0.0
+- prettier@2.6.2
+
+### Removed
+- TravisCI setup
+- DavidDM badges
+- NodeJS 10.x, 13.x, 15.x test runs
+- snyk
+- xo
 
 ## [4.4.0] - 2020-10-20
 ### Added
@@ -303,6 +336,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...4.5.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
