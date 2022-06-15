@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.22.1
+version: v1.25.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-SETVALUE-450213:
@@ -999,6 +999,11 @@ ignore:
     - mocha > nanoid:
         reason: None given
         expires: '2022-02-11T13:41:21.814Z'
+  SNYK-JS-MOCHA-2863123:
+    - '*':
+        reason: None Given
+        expires: 2022-07-15T10:45:47.329Z
+        created: 2022-06-15T10:45:47.359Z
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
