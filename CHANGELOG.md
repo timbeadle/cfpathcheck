@@ -34,6 +34,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - prettier@2.7.1
 
 ### Removed
+- Breaking: NodeJS support <12.17
 - nodejs v17 test run
 
 ## [5.0.2] - 2022-03-25
