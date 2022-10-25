@@ -65,6 +65,61 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - david-dm badges
 - TravisCI build badge
 
+## [4.6.0] - 2022-10-25
+### Added
+- NodsJS 19.x test run
+
+### Updated
+- Minimum supported NodeJS version is now 12.x
+- @snyk/protect@1.1041.0
+- glob@8.0.3
+- minimist@1.2.7
+- @types/chai@4.3.3
+- @types/glob@8.0.0
+- @types/mocha@10.0.0
+- eslint@8.26.0
+- eslint-config-xo@0.42.0
+- ls-engines@0.7.0
+- mocha@10.1.0
+- prettier@2.7.1
+
+### Removed
+- NodeJS v10.x support
+
+## [4.5.0] - 2022-05-03
+### Added
+- dependabot
+- codeql analysis
+- NodeJS 16.x, 18.x test runs
+- @snyk/protect
+- @types/chai
+- @types/checkstyle-formatter
+- @types/deep-equal
+- @types/glob
+- @types/mocha
+- eslint
+- eslint-config-xo
+- eslint-plugin-import
+- ls-engines
+
+### Updated
+- https Semver link
+- bin/{cfpathcheck -> cli/js}
+- {test -> fixtures}/test-template.cfm
+- Various eslint code style issues fixed
+- chai@4.3.6
+- deep-equal@2.0.5
+- minimist@1.2.6
+- mocha@10.0.0
+- prettier@2.6.2
+
+### Removed
+- TravisCI setup
+- DavidDM badges
+- NodeJS 10.x, 13.x, 15.x test runs
+- snyk
+- xo
+
 ## [4.4.0] - 2020-10-20
 ### Added
 - node_js 15 support
@@ -368,6 +423,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
+[4.6.0]: https://github.com/timbeadle/cfpathcheck/compare/4.5.0...4.6.0
+[4.5.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...4.5.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
