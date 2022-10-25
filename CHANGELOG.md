@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.6.0] - 2022-10-25
+### Added
+- NodsJS 19.x test run
+
+### Updated
+- Minimum supported NodeJS version is now 12.x
+- @snyk/protect@1.1041.0
+- glob@8.0.3
+- minimist@1.2.7
+- @types/chai@4.3.3
+- @types/glob@8.0.0
+- @types/mocha@10.0.0
+- eslint@8.26.0
+- eslint-config-xo@0.42.0
+- ls-engines@0.7.0
+- mocha@10.1.0
+- prettier@2.7.1
+
+### Removed
+- NodeJS v10.x support
+
 ## [4.5.0] - 2022-05-03
 ### Added
 - dependabot
@@ -336,6 +357,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.6.0]: https://github.com/timbeadle/cfpathcheck/compare/4.5.0...4.6.0
 [4.5.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...4.5.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
