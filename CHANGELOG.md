@@ -2,6 +2,40 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.0] - 2022-10-25
+### Added
+- nodejs v12, v19 test runs
+- eslint redos plugin
+- ls-engines (tests dependency graph for engine compatibility)
+- Renovate bot config
+
+### Updated
+- actions/checkout@v3
+- actions/setup-node@v3
+- github/codeql-action/init@v2
+- github/codeql-action/autobuild@v2
+- github/codeql-action/analyze@v2
+- Minimum supported NodeJS version is now 12.17
+- @snyk/protect@1.1020.0
+- glob@8.0.3
+- @types/chai@4.3.3
+- @types/checkstyle-formatter@1.0.0
+- @types/deep-equal@1.0.1
+- @types/glob@8.0.0
+- @types/minimist@1.2.2
+- @types/mocha@10.0.0
+- chai@4.3.6
+- eslint@8.26.0
+- eslint-config-xo@0.42.0
+- eslint-plugin-import@2.26.0
+- mocha@10.1.0
+- npm-run-all@4.1.5
+- nyc@15.1.0
+- prettier@2.7.1
+
+### Removed
+- nodejs v17 test run
+
 ## [5.0.2] - 2022-03-25
 ### Added
 - nodejs v18 test run
@@ -420,6 +454,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.1.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.1.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
