@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [5.1.0] - 2022-10-25
+## [6.0.0] - 2022-10-25
 ### Added
 - nodejs v12, v19 test runs
 - eslint redos plugin
@@ -34,6 +34,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - prettier@2.7.1
 
 ### Removed
+- Breaking: NodeJS support <12.17
 - nodejs v17 test run
 
 ## [5.0.2] - 2022-03-25
@@ -454,7 +455,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
-[5.1.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.1.0
+[6.0.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...6.0.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
