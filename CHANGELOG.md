@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.6.1] - 2023-03-08
+### Updated
+- @snyk/protect@1.1114.0
+- @types/chai@4.3.4
+- @types/glob@8.1.0
+- @types/mocha@10.0.1
+- chai@4.3.7
+- chalk@4.1.2
+- deep-equal@2.2.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint@8.35.0
+- glob@8.1.0
+- ls-engines@0.8.1
+- minimist@1.2.8
+- mocha@10.2.0
+- prettier@2.8.4
+
 ## [4.6.0] - 2022-10-25
 ### Added
 - NodsJS 19.x test run
@@ -357,6 +375,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.6.1]: https://github.com/timbeadle/cfpathcheck/compare/4.6.0...4.6.1
 [4.6.0]: https://github.com/timbeadle/cfpathcheck/compare/4.5.0...4.6.0
 [4.5.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...4.5.0
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
