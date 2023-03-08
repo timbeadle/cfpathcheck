@@ -52,7 +52,7 @@
     "deep-equal": "^2.0.5",
     "glob": "^8.0.3",
     "log-symbols": "^4.0.0",
-    "minimist": "^1.2.7"
+    "minimist": "^1.2.8"
   },
   "devDependencies": {
     "@types/chai": "^4.3.3",
