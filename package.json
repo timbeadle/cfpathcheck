@@ -50,7 +50,7 @@
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.0",
     "deep-equal": "^2.2.0",
-    "glob": "^8.0.3",
+    "glob": "^8.1.0",
     "log-symbols": "^4.0.0",
     "minimist": "^1.2.8"
   },
