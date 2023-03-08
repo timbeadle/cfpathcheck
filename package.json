@@ -55,12 +55,12 @@
     "minimist": "^1.2.8"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.3",
+    "@types/chai": "^4.3.4",
     "@types/checkstyle-formatter": "^1.0.0",
     "@types/deep-equal": "^1.0.1",
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.0",
-    "chai": "^4.3.6",
+    "chai": "^4.3.7",
     "eslint": "^8.26.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-plugin-import": "^2.25.4",
