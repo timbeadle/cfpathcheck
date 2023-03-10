@@ -51,7 +51,7 @@
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
     "deep-equal": "^2.2.0",
-    "glob": "^8.0.1",
+    "glob": "^8.1.0",
     "log-symbols": "^5.1.0",
     "minimist": "^1.2.8"
   },
@@ -59,7 +59,7 @@
     "@types/chai": "^4.3.4",
     "@types/checkstyle-formatter": "^1.0.0",
     "@types/deep-equal": "^1.0.1",
-    "@types/glob": "^7.2.0",
+    "@types/glob": "^8.1.0",
     "@types/minimist": "^1.2.2",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
