@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [5.1.0] - 2023-03-11
+## [5.2.0] - 2023-03-11
 ### Added
 - nodejs v12, v19 test runs
 
@@ -26,6 +26,10 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Removed
 - nodejs support <12.17
+
+## 5.1.0
+
+- Deprecated - see v6.0.0
 
 ## [5.0.2] - 2022-03-25
 ### Added
@@ -390,7 +394,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
-[5.1.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.1.0
+[5.2.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.2.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
