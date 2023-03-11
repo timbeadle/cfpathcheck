@@ -2,6 +2,31 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.0] - 2023-03-11
+### Added
+- nodejs v12, v19 test runs
+
+### Updated
+- Minimum nodejs version now 12.17
+- @snyk/protect@1.1117.0
+- @types/chai@4.3.4
+- @types/glob@8.1.0
+- @types/mocha@10.0.1
+- chai@4.3.7
+- chalk@5.2.0"
+- deep-equal@2.2.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint@8.36.0
+- glob@8.1.0
+- ls-engines@0.8.1
+- minimist@1.2.8
+- mocha@10.2.0
+- prettier@2.8.4
+
+### Removed
+- nodejs support <12.17
+
 ## [5.0.2] - 2022-03-25
 ### Added
 - nodejs v18 test run
@@ -365,6 +390,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.1.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.1.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...5.0.0
