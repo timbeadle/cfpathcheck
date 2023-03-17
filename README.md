@@ -27,6 +27,18 @@ Static analysis for cfml template import and include paths
 * REPORTER: use checkstyle to output checkstyle-compatible xml to stdout.
 * OUTFILE: The path to the output file, for integration with (e.g.) Jenkins or other CI servers.
 
+### Release support matrix
+
+| Release | Min Node ver. | Support     |
+| ------- | ------------- | ----------- |
+| 1.x     | 4.0.0         | Obsolete    |
+| 2.x     | 6.0.0         | Obsolete    |
+| 3.x     | 8.0.0         | Obsolete    |
+| 4.x     | 10.0.0        | Obsolete    |
+| 5.x     | 12.0.0        | Security    |
+| 6.x     | 12.17.0       | Maintenance |
+| 7.x     | 14.13.0       | Current     |
+
 ### Release history
 
 * See [CHANGELOG](https://github.com/timbeadle/cfpathcheck/blob/main/CHANGELOG.md).
