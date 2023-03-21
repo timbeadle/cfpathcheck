@@ -1,6 +1,6 @@
-import { expect } from 'chai';
-import { describe, it } from 'mocha';
-import * as cfpathcheck from '../lib/cfpathcheck.js';
+const { expect } = require('chai');
+const { describe, it } = require('mocha');
+const cfpathcheck = require('../lib/cfpathcheck');
 
 describe('cfpathcheck', () => {
 	describe('check', () => {

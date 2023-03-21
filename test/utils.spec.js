@@ -1,6 +1,6 @@
-import { expect } from 'chai';
-import { describe, it } from 'mocha';
-import * as utils from '../lib/utils.js';
+const { expect } = require('chai');
+const { describe, it } = require('mocha');
+const utils = require('../lib/utils');
 
 describe('utils', () => {
 	describe('containsObject', () => {
