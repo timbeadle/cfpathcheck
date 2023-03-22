@@ -1,11 +1,5 @@
 {
   "name": "cfpathcheck",
-  "xo": {
-    "env": [
-      "node"
-    ],
-    "prettier": true
-  },
   "description": "Check CFML files for correct paths in cfinclude/cfimport tags",
   "version": "5.2.0",
   "homepage": "https://github.com/timbeadle/cfpathcheck",
