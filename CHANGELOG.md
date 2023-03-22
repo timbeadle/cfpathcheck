@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.2.1] - 2023-03-22
+### Added
+- nodejs v12.0, v12.17 test runs
+- nodejs support >=12.0.0
+
+### Updated
+- Minimum nodejs version now 12.0.0
+- All components converted back to CommonJS to work on nodejs >=12.0.0
+- chalk@4.1.2
+- log-symbols@4.1.0
+- eslint@7.32.0
+- eslint-config-xo@0.39.0
+- mocha@9.2.2
+
 ## [5.2.0] - 2023-03-11
 ### Added
 - nodejs v12, v19 test runs
@@ -394,6 +408,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.2.1]: https://github.com/timbeadle/cfpathcheck/compare/5.2.0...5.2.1
 [5.2.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.2.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/cfpathcheck/compare/5.0.0...5.0.1
