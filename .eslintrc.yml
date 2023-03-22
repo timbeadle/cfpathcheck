@@ -5,11 +5,12 @@ extends:
   - xo
   - plugin:import/recommended
 parserOptions:
-  ecmaVersion: 13
-  sourceType: module
+  ecmaVersion: 12
+  sourceType: script
 plugins:
   - import
 rules:
   arrow-parens: 0
+  comma-dangle: off
   object-curly-spacing: 0
   import/no-unresolved: [2]
