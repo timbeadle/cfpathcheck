@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.1.0] - 2023-03-22
+### Added
+- Type definitions (generated using `tsc` via the `build:types` npm script)
+- @types/node
+- typescript
+
+### Updated
+- prettier@2.8.6
+
 ## [8.0.0] - 2023-03-17
 ### Added
 - Version support matrix
@@ -503,6 +512,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[8.1.0]: https://github.com/timbeadle/cfpathcheck/compare/8.0.0...8.1.0
 [8.0.0]: https://github.com/timbeadle/cfpathcheck/compare/7.0.1...8.0.0
 [7.0.1]: https://github.com/timbeadle/cfpathcheck/compare/7.0.0...7.0.1
 [7.0.0]: https://github.com/timbeadle/cfpathcheck/compare/6.0.0...7.0.0
