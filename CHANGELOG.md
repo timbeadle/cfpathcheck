@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.1.1] - 2023-04-11
+### Updated
+- @snyk/protect@1.1140.0
+- @types/node@18.15.11
+- chalk@5.2.0
+- deep-equal@2.2.0
+- eslint@8.38.0
+- minimist@1.2.8
+- prettier@2.8.7
+- typescript@5.0.4
+
 ## [8.1.0] - 2023-03-22
 ### Added
 - Type definitions (generated using `tsc` via the `build:types` npm script)
@@ -512,6 +523,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[8.1.1]: https://github.com/timbeadle/cfpathcheck/compare/8.1.0...8.1.1
 [8.1.0]: https://github.com/timbeadle/cfpathcheck/compare/8.0.0...8.1.0
 [8.0.0]: https://github.com/timbeadle/cfpathcheck/compare/7.0.1...8.0.0
 [7.0.1]: https://github.com/timbeadle/cfpathcheck/compare/7.0.0...7.0.1
