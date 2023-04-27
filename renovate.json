@@ -4,5 +4,5 @@
     "config:base"
   ],
   "baseBranches": ["main", "/^main-.*/"],
-  "ignoreDeps": ["node"]
+  "ignoreDeps": ["node", "ls-engines", "eslint-config-xo"]
 }
