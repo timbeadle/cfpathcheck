@@ -3,6 +3,5 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["main", "/^main-.*/"],
-  "bumpVersion": "major"
+  "baseBranches": ["main", "/^main-.*/"]
 }
