@@ -73,5 +73,9 @@
     "nyc": "15.1.0",
     "prettier": "^2.8.4"
   },
-  "snyk": true
+  "snyk": true,
+  "volta": {
+    "node": "12.22.12",
+    "npm": "7.24.2"
+  }
 }
