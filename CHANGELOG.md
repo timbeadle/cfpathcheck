@@ -2,6 +2,28 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.4.1] - 2023-06-01
+### Added
+- nodejs v16, v18, v20 test runs
+- Volta pinning of node@10, npm@6
+
+### Updated
+- actions/checkout@v3
+- actions/setup-node@v3
+- chai@4.3.7
+- chalk@4.1.2
+- crlf@1.1.1
+- deep-equal@2.2.1
+- glob@7.2.3
+- log-symbols@4.1.0
+- minimist@1.2.8
+- mocha@8.4.0"
+- prettier@2.8.8
+- snyk@1.454.0
+
+### Removed
+- nodejs v13, v15 test runs
+
 ## [4.4.0] - 2020-10-20
 ### Added
 - node_js 15 support
@@ -302,6 +324,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[4.4.1]: https://github.com/timbeadle/cfpathcheck/compare/4.4.0...4.4.1
 [4.4.0]: https://github.com/timbeadle/cfpathcheck/compare/4.3.0...4.4.0
 [4.3.0]: https://github.com/timbeadle/cfpathcheck/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/cfpathcheck/compare/4.1.0...4.2.0
