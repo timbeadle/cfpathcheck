@@ -59,7 +59,7 @@
     "glob": "^7.2.3",
     "log-symbols": "^4.1.0",
     "minimist": "^1.2.8",
-    "snyk": "^1.1171.0"
+    "snyk": "^1.454.0"
   },
   "devDependencies": {
     "chai": "^4.3.7",
