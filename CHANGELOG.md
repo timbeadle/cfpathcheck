@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.2.2] - 2023-06-01
+### Added
+- nodejs v20 test run
+
+### Updated
+- @snyk/protect@1.1171.0
+- @types/chai@4.3.5
+- actions/checkout@v3
+- actions/setup-node@v3
+- github/codeql-action/analyze@v2
+- github/codeql-action/autobuild@v2
+- github/codeql-action/init@v2
+- deep-equal@2.2.1
+- prettier@2.8.8
+
+### Removed
+- nodejs v17, v19 test runs
+
 ## [5.2.1] - 2023-03-22
 ### Added
 - nodejs v12.0, v12.17 test runs
@@ -408,6 +426,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[5.2.2]: https://github.com/timbeadle/cfpathcheck/compare/5.2.1...5.2.2
 [5.2.1]: https://github.com/timbeadle/cfpathcheck/compare/5.2.0...5.2.1
 [5.2.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...5.2.0
 [5.0.2]: https://github.com/timbeadle/cfpathcheck/compare/5.0.1...5.0.2
