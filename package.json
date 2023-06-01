@@ -52,7 +52,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
     "deep-equal": "^2.2.1",
