@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.1.3] - 2023-06-30
+### Updated
+- @snyk/protect@1.1187.0
+- @types/node@20.3.2
+- chalk@5.3.0
+- glob@10.3.1
+- npm@8.19.4 (volta pin)
+- typescript@5.1.6
+- `npm audit fix` was run to reduce vulnerabilities
+
 ## [8.1.2] - 2023-06-02
 ### Added
 - nodejs v14.17.x, v20 test runs
@@ -542,6 +552,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[8.1.3]: https://github.com/timbeadle/cfpathcheck/compare/8.1.2...8.1.3
 [8.1.2]: https://github.com/timbeadle/cfpathcheck/compare/8.1.1...8.1.2
 [8.1.1]: https://github.com/timbeadle/cfpathcheck/compare/8.1.0...8.1.1
 [8.1.0]: https://github.com/timbeadle/cfpathcheck/compare/8.0.0...8.1.0
