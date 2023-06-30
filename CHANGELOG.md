@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Updated
 - @snyk/protect@1.1187.0
-- @types/chai": "4.3.5
+- @types/chai@4.3.5
 - chalk@5.3.0
 - deep-equal@2.2.1
 - eslint@8.43.0
