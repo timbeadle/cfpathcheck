@@ -31,7 +31,7 @@
   "bin": "./bin/cli.js",
   "main": "./lib/cfpathcheck.js",
   "engines": {
-    "node": ">= 12.22"
+    "node": ">= 12.17"
   },
   "scripts": {
     "test": "run-p test:snyk test:lint test:unit test:engines",
