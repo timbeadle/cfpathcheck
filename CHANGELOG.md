@@ -2,7 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [6.0.2] - 2023-06-30
+## [6.0.3] - 2023-07-05
+### Added
+- nodejs v12.17.x test run
+
+### Updated
+- Converted back to a CommonJS module for Node 12.17 compatibility
+- Minimum nodejs version reverted to 12.17
+- volta pin node@12.17.0
+- chalk@4.1.2
+- log-symbols@4.1.0
+- prettier@3.0.0
+
+## [6.0.2] - 2023-07-05
 ### Added
 - nodejs v20.x test run
 - volta pin node@12.22.12, npm@7.24.2
@@ -496,6 +508,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[6.0.3]: https://github.com/timbeadle/cfpathcheck/compare/6.0.2...6.0.3
 [6.0.2]: https://github.com/timbeadle/cfpathcheck/compare/6.0.1...6.0.2
 [6.0.1]: https://github.com/timbeadle/cfpathcheck/compare/6.0.0...6.0.1
 [6.0.0]: https://github.com/timbeadle/cfpathcheck/compare/5.0.2...6.0.0
