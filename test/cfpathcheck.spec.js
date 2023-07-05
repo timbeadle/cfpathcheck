@@ -1,6 +1,6 @@
-import { expect } from 'chai';
-import { describe, it } from 'mocha';
-import * as cfpathcheck from '../lib/cfpathcheck.js';
+const { expect } = require('chai');
+const { describe, it } = require('mocha');
+const cfpathcheck = require('../lib/cfpathcheck');
 
 describe('cfpathcheck', () => {
 	describe('check', () => {
@@ -22,7 +22,7 @@ describe('cfpathcheck', () => {
 	});
 
 	describe('formatter', () => {
-		const violations = cfpathcheck.check('./fixtures/test-template.cfm', 'json');
+		const violations = cfpathcheck.check('./test/test-template.cfm', 'json');
 
 		it('is a function', () => {
 			expect(cfpathcheck.formatter).to.be.an.instanceOf(Function);
@@ -49,7 +49,7 @@ describe('cfpathcheck', () => {
 		});
 
 		it('can read a file', () => {
-			expect(cfpathcheck.readFile('./fixtures/test-template.cfm').length).to.equal(562);
+			expect(cfpathcheck.readFile('./test/test-template.cfm').length).to.equal(562);
 		});
 	});
 
