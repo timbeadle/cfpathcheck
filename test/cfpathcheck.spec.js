@@ -41,6 +41,16 @@ describe('cfpathcheck', () => {
 		it('is a function', () => {
 			expect(cfpathcheck.getFiles).to.be.an.instanceOf(Function);
 		});
+
+		it('can read files from a directory', () => {
+			const actual = cfpathcheck.getFiles('./fixtures/');
+			expect(actual.length).to.equal(2);
+		});
+
+		it('can read a single file', () => {
+			const actual = cfpathcheck.getFiles('./fixtures/test-script.cfm');
+			expect(actual.length).to.equal(1);
+		});
 	});
 
 	describe('readFile', () => {
