@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.0.0] - 2023-09-26
+### Updated
+- @snyk/protect@1.1227.0
+- deep-equal@2.2.2
+- glob@10.3.8
+- @types/chai@4.3.6
+- @types/deep-equal@1.0.2
+- @types/node@20.7.0
+- chai@4.3.8
+- eslint@8.50.0
+- eslint-plugin-import@2.28.1
+- prettier@3.0.3
+- typescript@5.2.2
+- node@16.20.2
+- npm@9.8.1
+- actions/checkout@v4
+
+### Removed
+- BREAKING: NodeJS support <16.14
+- Node 14.x, 14.17.x test runs
+
 ## [8.1.3] - 2023-06-30
 ### Updated
 - @snyk/protect@1.1187.0
@@ -552,6 +573,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[9.0.0]: https://github.com/timbeadle/cfpathcheck/compare/8.1.3...9.0.0
 [8.1.3]: https://github.com/timbeadle/cfpathcheck/compare/8.1.2...8.1.3
 [8.1.2]: https://github.com/timbeadle/cfpathcheck/compare/8.1.1...8.1.2
 [8.1.1]: https://github.com/timbeadle/cfpathcheck/compare/8.1.0...8.1.1
