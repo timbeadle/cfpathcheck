@@ -63,7 +63,7 @@
     "@types/deep-equal": "1.0.3",
     "@types/glob": "8.1.0",
     "@types/minimist": "1.2.4",
-    "@types/mocha": "^10.0.2",
+    "@types/mocha": "^10.0.3",
     "@types/node": "^20.8.7",
     "chai": "4.3.10",
     "eslint": "8.51.0",
