@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.3] - 2023-10-23
+### Added
+- **Dependabot**: Add `versioning-strategy: increase` setting.
+- **Renovate**: Add `packageRules` (to group eslint package upgrades), `rangeStrategy` and `transitiveRemediation` settings.
+
+### Updated
+- @snyk/protect@1.1236.0
+- @types/chai@4.3.9
+- @types/checkstyle-formatter@1.0.1
+- @types/deep-equal@1.0.3
+- @types/minimist@1.2.4
+- @types/mocha@10.0.3
+- chai@4.3.10
+- deep-equal@2.2.2
+- eslint-plugin-import@2.29.0
+- eslint@8.52.0
+- prettier@3.0.3
+- (Github) actions/checkout@v4
+
 ## [7.0.2] - 2023-06-30
 ### Added
 - nodejs v14.13.x, v20.x test runs
@@ -501,6 +520,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[7.0.3]: https://github.com/timbeadle/cfpathcheck/compare/7.0.2...7.0.3
 [7.0.2]: https://github.com/timbeadle/cfpathcheck/compare/7.0.1...7.0.2
 [7.0.1]: https://github.com/timbeadle/cfpathcheck/compare/7.0.0...7.0.1
 [7.0.0]: https://github.com/timbeadle/cfpathcheck/compare/6.0.0...7.0.0
