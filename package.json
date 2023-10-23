@@ -33,7 +33,7 @@
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
   "engines": {
-    "node": ">= 16.14"
+    "node": ">= 18"
   },
   "scripts": {
     "build:types": "tsc",
