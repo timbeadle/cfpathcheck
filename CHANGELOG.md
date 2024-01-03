@@ -2,6 +2,34 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.1.4] - 2024-01-03
+### Added
+- eslint ignore annotations in test files when importing `chai@5`
+- (Dependabot) `versioning-strategy: increase`
+- (Renovate) `packageRules`, `rangeStrategy` and `transitiveRemediation` options
+
+### Updated
+- @snyk/protect@1.1267.0
+- @types/chai@4.3.11
+- @types/checkstyle-formatter@1.0.2
+- @types/deep-equal@1.0.4
+- @types/minimist@1.2.5
+- @types/mocha@10.0.6
+- @types/node@20.8.7
+- actions/checkout@v4
+- actions/setup-node@v4
+- chai@5.0.0
+- deep-equal@2.2.3
+- eslint-plugin-import@2.29.1
+- eslint@8.56.0
+- github/codeql-action/analyze@v3
+- github/codeql-action/autobuild@v3
+- github/codeql-action/init@v3
+- glob@10.3.10
+- ls-engines@0.9.1
+- prettier@3.1.1
+- typescript@5.3.3
+
 ## [8.1.3] - 2023-06-30
 ### Updated
 - @snyk/protect@1.1187.0
@@ -552,6 +580,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[8.1.3]: https://github.com/timbeadle/cfpathcheck/compare/8.1.3...8.1.4
 [8.1.3]: https://github.com/timbeadle/cfpathcheck/compare/8.1.2...8.1.3
 [8.1.2]: https://github.com/timbeadle/cfpathcheck/compare/8.1.1...8.1.2
 [8.1.1]: https://github.com/timbeadle/cfpathcheck/compare/8.1.0...8.1.1
