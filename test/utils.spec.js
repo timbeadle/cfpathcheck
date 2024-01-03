@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/namespace
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import * as utils from '../lib/utils.js';
