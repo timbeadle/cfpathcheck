@@ -2,6 +2,31 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.0.1] - 2024-01-15
+### Added
+- eslint annotations to work around chai lint issues in v5
+
+### Updated
+- @snyk/protect@1.1269.0
+- @types/chai@4.3.11
+- @types/checkstyle-formatter@1.0.2
+- @types/deep-equal@1.0.4
+- @types/minimist@1.2.5
+- @types/mocha@10.0.6
+- chai@5.0.0
+- deep-equal@2.2.3
+- eslint-plugin-import@2.29.1
+- eslint@8.56.0
+- glob@10.3.10
+- ls-engines@0.9.1
+- prettier@3.2.2
+- typescript@5.3.3
+- actions/setup-node@v4
+- github/codeql-action/analyze@v3
+- github/codeql-action/autobuild@v3
+- github/codeql-action/init@v3
+- (volta) npm@9.9.2
+
 ## [9.0.0] - 2023-09-26
 ### Updated
 - @snyk/protect@1.1227.0
