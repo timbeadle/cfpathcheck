@@ -2,6 +2,33 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.0.1] - 2024-01-16
+### Added
+- eslint annotations to work around chai lint issues in v5
+- NodeJS v21 test run
+
+### Updated
+- 8.x marked as obsolete
+- @snyk/protect@1.1269.0
+- @types/chai@4.3.11
+- @types/checkstyle-formatter@1.0.2
+- @types/deep-equal@1.0.4
+- @types/minimist@1.2.5
+- @types/mocha@10.0.6
+- @types/node@20.11.2
+- chai@5.0.0
+- deep-equal@2.2.3
+- eslint-plugin-import@2.29.1
+- eslint@8.56.0
+- ls-engines@0.9.1
+- prettier@3.2.2
+- typescript@5.3.3
+- (volta) npm@10.3.0
+- github/codeql-action/init@v3
+- github/codeql-action/autobuild@v3
+- github/codeql-action/analyze@v3
+- actions/setup-node@v4
+
 ## [10.0.0] - 2023-10-23
 
 ### Added
@@ -597,6 +624,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[10.0.1]: https://github.com/timbeadle/cfpathcheck/compare/10.0.0...10.0.1
 [10.0.0]: https://github.com/timbeadle/cfpathcheck/compare/9.0.0...10.0.0
 [9.0.0]: https://github.com/timbeadle/cfpathcheck/compare/8.1.3...9.0.0
 [8.1.3]: https://github.com/timbeadle/cfpathcheck/compare/8.1.2...8.1.3
