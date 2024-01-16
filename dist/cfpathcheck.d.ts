@@ -6,4 +6,5 @@ export function check(filePath: string): Array<object>;
 export function formatter(violations: Array<object>, format: string): string | Array<object>;
 export function writeFile(output: string, outFile: string): void;
 export function writeOutput(output: string | Array<object>): void;
+export function formatMessageText(message: any): string;
 //# sourceMappingURL=cfpathcheck.d.ts.map
