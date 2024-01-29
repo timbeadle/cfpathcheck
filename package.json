@@ -64,7 +64,7 @@
     "@types/glob": "8.1.0",
     "@types/minimist": "1.2.5",
     "@types/mocha": "10.0.6",
-    "@types/node": "^20.11.4",
+    "@types/node": "^20.11.10",
     "chai": "5.0.0",
     "eslint": "8.56.0",
     "eslint-config-xo": "0.43.1",
