@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist';
-import { check, formatter, writeOutput, writeFile } from '../lib/cfpathcheck.js';
+import {
+	check, formatter, writeOutput, writeFile,
+} from '../lib/cfpathcheck.js';
 
 const argv = minimist(process.argv.slice(2));
 /**
