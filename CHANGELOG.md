@@ -640,7 +640,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
-[10.0.1]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
+[10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
 [10.0.1]: https://github.com/timbeadle/cfpathcheck/compare/10.0.0...10.0.1
 [10.0.0]: https://github.com/timbeadle/cfpathcheck/compare/9.0.0...10.0.0
 [9.0.0]: https://github.com/timbeadle/cfpathcheck/compare/8.1.3...9.0.0
