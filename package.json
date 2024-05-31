@@ -33,7 +33,7 @@
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
   "engines": {
-    "node": ">= 18.20.2"
+    "node": ">= 18.20.3"
   },
   "scripts": {
     "build:types": "tsc",
@@ -79,7 +79,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "18.20.2",
+    "node": "18.20.3",
     "npm": "10.8.1"
   }
 }
