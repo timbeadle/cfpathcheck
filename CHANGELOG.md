@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.0.2] - 2024-03-16
+### Updated
+- Object.prototype.hasOwnProperty.call() -> Object.hasOwn()
+- Formatting for new eslint rules
+- @snyk/protect@1.1284.0
+- @types/chai@4.3.12
+- @types/node@20.11.28
+- chai@5.1.0
+- eslint-config-xo@0.44.0
+- eslint@8.57.0
+- mocha@10.3.0
+- npm-run-all2@6.1.2
+- prettier@3.2.5
+- typescript@5.4.2
+- (Volta) npm@10.5.0
+
 ## [10.0.1] - 2024-01-16
 ### Added
 - eslint annotations to work around chai lint issues in v5
@@ -624,6 +640,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
 [10.0.1]: https://github.com/timbeadle/cfpathcheck/compare/10.0.0...10.0.1
 [10.0.0]: https://github.com/timbeadle/cfpathcheck/compare/9.0.0...10.0.0
 [9.0.0]: https://github.com/timbeadle/cfpathcheck/compare/8.1.3...9.0.0
