@@ -25,7 +25,7 @@ if (!file) {
 /**
  * Application.
  */
-const violations = check(file, 'json');
+const violations = check(file);
 const output = formatter(violations, reporter);
 
 writeOutput(output);

@@ -36,7 +36,7 @@
     "node": ">= 18.20.3"
   },
   "scripts": {
-    "build:types": "tsc",
+    "build:types": "rimraf ./dist/* && tsc",
     "test": "run-p test:snyk test:lint test:unit test:engines",
     "test:ci": "run-p test:lint test:unit test:engines",
     "test:engines": "ls-engines",
@@ -75,6 +75,7 @@
     "npm-run-all2": "6.2.0",
     "nyc": "15.1.0",
     "prettier": "3.3.0",
+    "rimraf": "^5.0.7",
     "typescript": "^5.4.5"
   },
   "snyk": true,
