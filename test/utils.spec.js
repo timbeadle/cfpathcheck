@@ -92,4 +92,10 @@ describe('utils', () => {
 			expect(result.length).to.equal(1);
 		});
 	});
+
+	describe('normalisePath', () => {
+		it('is a function', () => {
+			expect(utils.normalisePath).to.be.an.instanceOf(Function);
+		});
+	});
 });

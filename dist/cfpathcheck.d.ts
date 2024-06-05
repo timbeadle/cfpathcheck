@@ -1,10 +1,11 @@
-export function comparePrefixArrays(prefixArray1: Array<string>, prefixArray2: Array<string>, message: string, severity: string): Array<object>;
-export function readFile(filePath: string): string;
-export function checkFile(filePath: string): Array<object>;
-export function getFiles(filePath: string): Array<string>;
-export function check(filePath: string): Array<object>;
-export function formatter(violations: Array<object>, format: string): string | Array<object>;
-export function writeFile(output: string, outFile: string): void;
-export function writeOutput(output: string | Array<object>): void;
-export function formatMessageText(message: any): string;
+import { check } from './core.js';
+import { checkFile } from './core.js';
+import { comparePrefixArrays } from './core.js';
+import { formatMessageText } from './format.js';
+import { formatter } from './format.js';
+import { getFiles } from './file.js';
+import { readFile } from './file.js';
+import { writeFile } from './file.js';
+import { writeOutput } from './format.js';
+export { check, checkFile, comparePrefixArrays, formatMessageText, formatter, getFiles, readFile, writeFile, writeOutput };
 //# sourceMappingURL=cfpathcheck.d.ts.map
