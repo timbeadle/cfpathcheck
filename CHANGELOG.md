@@ -2,6 +2,36 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.1.0] - 2024-07-30
+### Added
+- NodeJS v22 test run.
+- fixtures/test-script.cfm, for testing cfscript syntax imports.
+- rimraf package, to clean up the `dist` folder before building ts type files.
+- tsconfig.json: `"moduleResolution": "Node"`
+
+### Updated
+- Internal rewrite, splitting the monolithic cfpathcheck.js module into more focused, smaller modules.
+  - The external API hasn't changed, however, so this is only a minor version increment.
+- package.json: engines.node: 18 -> 18.20.3
+- @snyk/protect@1.1292.1
+- @types/chai@4.3.16
+- @types/mocha@10.0.7
+- @types/node@22.0.0
+- chai@5.1.1
+- eslint-config-xo@0.45.0
+- glob@10.4.5
+- ls-engines@0.9.2
+- mocha@10.7.0
+- npm-run-all2@6.2.2
+- nyc@17.0.0
+- prettier@3.3.3
+- typescript@5.5.4
+- (volta) node@18.20.3
+- (volta) npm@10.8.2
+
+### Removed
+- Unnecessary `format` argument in the call to the `check(file)` function.
+
 ## [10.0.2] - 2024-03-16
 ### Updated
 - Object.prototype.hasOwnProperty.call() -> Object.hasOwn()
@@ -640,6 +670,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
 [10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
 [10.0.1]: https://github.com/timbeadle/cfpathcheck/compare/10.0.0...10.0.1
 [10.0.0]: https://github.com/timbeadle/cfpathcheck/compare/9.0.0...10.0.0
