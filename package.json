@@ -69,7 +69,6 @@
     "eslint": "8.57.0",
     "eslint-config-xo": "0.45.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-redos": "4.4.5",
     "ls-engines": "0.9.3",
     "mocha": "10.7.0",
     "npm-run-all2": "6.2.2",
