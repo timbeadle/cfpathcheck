@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/namespace
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import { getFiles, readFile, writeFile } from '../lib/file.js';
