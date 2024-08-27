@@ -60,7 +60,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.9.0",
-    "@types/chai": "4.3.18",
+    "@types/chai": "4.3.19",
     "@types/checkstyle-formatter": "1.0.2",
     "@types/deep-equal": "1.0.4",
     "@types/glob": "8.1.0",
