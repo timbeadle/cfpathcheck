@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/namespace
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import * as cfpathcheck from '../lib/cfpathcheck.js';
