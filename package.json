@@ -71,7 +71,7 @@
     "chai": "5.1.1",
     "eslint": "8.57.0",
     "eslint-config-xo": "0.45.0",
-    "globals": "^15.9.0",
+    "globals": "^15.10.0",
     "ls-engines": "0.9.3",
     "mocha": "10.7.3",
     "npm-run-all2": "6.2.3",
