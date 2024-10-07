@@ -69,7 +69,7 @@
     "@types/mocha": "10.0.8",
     "@types/node": "^20.14.9",
     "chai": "5.1.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.12.0",
     "eslint-config-xo": "0.45.0",
     "globals": "^15.10.0",
     "ls-engines": "0.9.3",
