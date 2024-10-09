@@ -41,7 +41,7 @@
     "test:ci": "run-p test:lint test:unit test:engines",
     "test:engines": "ls-engines",
     "test:coverage": "nyc --reporter=lcov npm run test:unit",
-    "test:lint": "eslint {bin,lib,test}/*.js",
+    "test:lint": "xo {bin,lib,test}/*.js",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk-protect",
@@ -73,7 +73,8 @@
     "nyc": "17.1.0",
     "prettier": "3.3.3",
     "rimraf": "^5.0.10",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "xo": "^0.59.3"
   },
   "snyk": true,
   "volta": {
