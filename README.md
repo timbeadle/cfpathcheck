@@ -39,8 +39,9 @@ Static analysis for cfml template import and include paths
 | 6.x     | 12.22.0       | Obsolete    |
 | 7.x     | 14.13.0       | Obsolete    |
 | 8.x     | 14.17.0       | Obsolete    |
-| 9.x     | 16.14.0       | Maintenance |
-| 10.x    | 18.0.0        | Current     |
+| 9.x     | 16.14.0       | Obsolete    |
+| 10.x    | 18.0.0        | Maintenance |
+| 11.x    | 20.0.0        | Current     |
 
 ### Release history
 
