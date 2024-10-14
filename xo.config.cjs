@@ -1,5 +1,4 @@
 module.exports = {
-	// space: true,
 	rules: {
 		"arrow-parens": 0,
 		"object-curly-spacing": 0,
