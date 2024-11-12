@@ -33,7 +33,7 @@
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
   "engines": {
-    "node": ">= 18.20.4"
+    "node": ">= 18.20.5"
   },
   "scripts": {
     "build:types": "rimraf ./dist/* && tsc",
@@ -80,7 +80,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "18.20.4",
+    "node": "18.20.5",
     "npm": "10.9.0"
   }
 }
