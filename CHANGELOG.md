@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.1.2] - 2024-11-25
+### Updated
+- @snyk/protect@1.1294.1
+- @types/chai@5.0.1
+- @types/mocha@10.0.10
+- @types/node@22.8.1
+- chai@5.1.2
+- mocha@10.8.2
+- npm-run-all2@7.0.1
+- typescript@5.7.2
+- npm audit: cross-spawn@7.0.6
+- Volta: npm@10.9.1
+
 ## [10.1.1] - 2024-10-15
 ### Updated
 - @snyk/protect@1.1293.1
@@ -691,6 +704,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[10.1.2]: https://github.com/timbeadle/cfpathcheck/compare/10.1.1...10.1.2
 [10.1.1]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...10.1.1
 [10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
 [10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
