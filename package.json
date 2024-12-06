@@ -74,7 +74,7 @@
     "prettier": "3.4.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.2",
-    "xo": "^0.59.3"
+    "xo": "^0.60.0"
   },
   "snyk": true,
   "volta": {
