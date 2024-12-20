@@ -72,7 +72,7 @@
     "eslint-plugin-redos": "4.4.5",
     "ls-engines": "0.9.3",
     "mocha": "11.0.1",
-    "npm-run-all2": "7.0.1",
+    "npm-run-all2": "7.0.2",
     "nyc": "17.1.0",
     "prettier": "3.4.2",
     "rimraf": "^5.0.10",
