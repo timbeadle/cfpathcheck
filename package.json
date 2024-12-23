@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1294.3",
-    "chalk": "^5.4.0",
+    "chalk": "^5.4.1",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
     "deep-equal": "^2.2.3",
