@@ -33,7 +33,7 @@
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
   "engines": {
-    "node": ">= 20.18.2"
+    "node": ">= 22.14.0"
   },
   "scripts": {
     "build:types": "rimraf ./dist/* && tsc",
@@ -64,7 +64,7 @@
     "@types/glob": "8.1.0",
     "@types/minimist": "1.2.5",
     "@types/mocha": "10.0.10",
-    "@types/node": "^22.13.5",
+    "@types/node": "^22.13.9",
     "chai": "5.2.0",
     "globals": "^16.0.0",
     "ls-engines": "0.9.3",
@@ -78,7 +78,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "20.18.2",
+    "node": "22.14.0",
     "npm": "11.1.0"
   }
 }
