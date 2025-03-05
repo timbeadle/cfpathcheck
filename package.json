@@ -58,7 +58,7 @@
     "minimist": "^1.2.8"
   },
   "devDependencies": {
-    "@types/chai": "^5.0.1",
+    "@types/chai": "^5.2.0",
     "@types/checkstyle-formatter": "1.0.2",
     "@types/deep-equal": "1.0.4",
     "@types/glob": "8.1.0",
