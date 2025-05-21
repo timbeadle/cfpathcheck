@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.2.0] - 2025-05-21
+
+**N.B.** This is the final release of 10.x
+
+### Updated
+- @snyk/protect@1.1297.1
+- @types/chai@5.2.2
+- @types/node@22.13.4
+- chai@5.2.0
+- chalk@5.4.1
+- mocha@11.4.0
+- npm-run-all2@7.0.2
+- prettier@3.5.3
+- typescript@5.8.3
+- engines.node: >= 18.20.8
+- volta.node: 18.20.8
+- volta.npm: 10.9.2
+
 ## [10.1.2] - 2024-11-25
 ### Updated
 - @snyk/protect@1.1294.1
@@ -704,6 +722,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[10.2.0]: https://github.com/timbeadle/cfpathcheck/compare/10.1.2...10.2.0
 [10.1.2]: https://github.com/timbeadle/cfpathcheck/compare/10.1.1...10.1.2
 [10.1.1]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...10.1.1
 [10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
