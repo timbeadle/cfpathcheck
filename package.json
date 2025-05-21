@@ -54,7 +54,7 @@
     "crlf": "^1.1.1",
     "deep-equal": "^2.2.3",
     "glob": "^11.0.2",
-    "log-symbols": "^7.0.0",
+    "log-symbols": "^7.0.1",
     "minimist": "^1.2.8"
   },
   "devDependencies": {
