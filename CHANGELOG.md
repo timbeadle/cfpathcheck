@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.1.0] - 2025-05-22
+### Updated
+- @snyk/protect@1.1297.1
+- @types/chai@5.2.2
+- @types/mocha@10.0.10
+- @types/node@22.15.21
+- chai@5.2.0
+- chalk@5.4.1
+- glob@11.0.2
+- globals@16.1.0
+- log-symbols@7.0.1
+- mocha@11.4.0
+- npm-run-all2@8.0.3
+- prettier@3.5.3
+- rimraf@6.0.1
+- typescript@5.8.3
+- xo@0.60.0
+- engines.node: >= 20.19.1
+- volta.node: 20.19.1
+- volta.npm: 11.4.0
+
 ## [11.0.0] - 2024-10-14
 ### Added
 - xo
@@ -699,6 +720,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.1.0]: https://github.com/timbeadle/cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...11.0.0
 [10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
 [10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
