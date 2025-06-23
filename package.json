@@ -71,7 +71,7 @@
     "mocha": "11.7.0",
     "npm-run-all2": "8.0.4",
     "nyc": "17.1.0",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3",
     "xo": "^1.1.0"
