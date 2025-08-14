@@ -48,7 +48,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1298.2",
+    "@snyk/protect": "^1.1298.3",
     "chalk": "^5.5.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
