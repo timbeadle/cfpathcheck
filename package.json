@@ -67,7 +67,7 @@
     "@types/node": "^25.0.3",
     "chai": "6.2.2",
     "globals": "^16.5.0",
-    "ls-engines": "0.9.3",
+    "ls-engines": "0.9.4",
     "mocha": "11.7.5",
     "npm-run-all2": "8.0.4",
     "nyc": "17.1.0",
