@@ -61,7 +61,6 @@
     "@types/chai": "5.2.3",
     "@types/checkstyle-formatter": "1.0.2",
     "@types/deep-equal": "1.0.4",
-    "@types/glob": "9.0.0",
     "@types/minimist": "1.2.5",
     "@types/mocha": "10.0.10",
     "@types/node": "^24.10.1",
