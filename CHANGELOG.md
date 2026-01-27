@@ -2,6 +2,33 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.2.0] - 2026-01-27
+### Added
+- @stylistic/object-curly-spacing and @stylistic/arrow-parens xo linting rules
+
+### Updated
+- Parantheses around arrow function args to match updated linting rules
+- @snyk/protect@1.1302.1
+- chalk@5.6.2
+- glob@13.0.0
+- @types/chai@5.2.3
+- @types/node@25.0.10
+- chai@6.2.2
+- globals@17.2.0
+- ls-engines@0.9.4
+- mocha@11.7.5
+- npm-run-all2@8.0.4
+- prettier@3.8.1
+- rimraf@6.1.2
+- typescript@5.9.3
+- xo@1.2.3
+- (engines) node@20.20.0
+- (Volta) node@20.20.0
+- (Volta) npm@11.8.0
+
+### Removed
+- Depshield badge
+
 ## [11.1.0] - 2025-05-22
 ### Updated
 - @snyk/protect@1.1297.1
@@ -720,6 +747,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...11.0.0
 [10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
