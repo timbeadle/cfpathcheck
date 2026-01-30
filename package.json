@@ -63,7 +63,7 @@
     "@types/deep-equal": "1.0.4",
     "@types/minimist": "1.2.5",
     "@types/mocha": "10.0.10",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.1.0",
     "chai": "6.2.2",
     "globals": "^17.2.0",
     "ls-engines": "0.10.0",
