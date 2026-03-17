@@ -1,5 +1,6 @@
 export default [
 	{
+		files: ['**/*.js'],
 		rules: {
 			'arrow-parens': 0,
 			'object-curly-spacing': 0,

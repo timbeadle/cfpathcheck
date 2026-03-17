@@ -41,7 +41,7 @@
     "test:ci": "run-p test:lint test:unit test:engines",
     "test:engines": "ls-engines",
     "test:coverage": "nyc --reporter=lcov npm run test:unit",
-    "test:lint": "xo {bin,lib,test}/*.js",
+    "test:lint": "xo",
     "test:snyk": "snyk test --dev",
     "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk-protect",
