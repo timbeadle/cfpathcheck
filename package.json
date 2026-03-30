@@ -29,7 +29,9 @@
     "static analysis"
   ],
   "preferGlobal": true,
-  "bin": "./bin/cli.js",
+  "bin": {
+    "cfpathcheck": "bin/cli.js"
+  },
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
   "engines": {
