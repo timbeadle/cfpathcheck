@@ -2,6 +2,30 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.3.0] - 2026-03-30
+### Added
+- xo.config.js
+
+### Updated
+- All regexes now have the `v` flag added
+- @snyk/protect@1.1303.2
+- @types/node@25.5.0
+- glob@13.0.6
+- globals@17.4.0
+- ls-engines@0.10.0
+- mocha@12.0.0-beta-10
+- nyc@18.0.0
+- rimraf@6.1.3
+- typescript@6.0.2
+- xo@2.0.2
+- engines.node@20.20.2
+- volta.node@22.22.2
+- volta.npm@11.12.1
+
+### Removed
+- NodeJS v20 test run (this version is still supported, however)
+- xo.config.cjs
+
 ## [11.2.0] - 2026-01-27
 ### Added
 - @stylistic/object-curly-spacing and @stylistic/arrow-parens xo linting rules
@@ -747,6 +771,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
 [11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...11.0.0
