@@ -2,13 +2,13 @@
 
 import minimist from 'minimist';
 import {
-	check, formatter, writeOutput, writeFile,
+	check,
+	formatter,
+	writeOutput,
+	writeFile,
 } from '../lib/cfpathcheck.js';
 
 const argv = minimist(process.argv.slice(2));
-/**
- * Everything in the file should be customized.
- */
 
 // Use `-f` or `--file` to specify the source file
 const file = argv._[0] || argv.f || argv.file || 'TODO.md';
@@ -22,9 +22,7 @@ if (!file) {
 	console.error('Please provide a source file, either as a first argument or with `-f` or `--file`');
 }
 
-/**
- * Application.
- */
+// The application
 const violations = check(file);
 const output = formatter(violations, reporter);
 
