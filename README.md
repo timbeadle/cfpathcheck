@@ -7,7 +7,6 @@ Static analysis for cfml template import and include paths
 [![Build Status](https://github.com/timbeadle/cfpathcheck/workflows/Node.js%20CI/badge.svg)](https://github.com/timbeadle/cfpathcheck)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![Code Climate](https://codeclimate.com/github/timbeadle/cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/cfpathcheck)
-[![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/cfpathcheck/depshield.svg)](https://depshield.github.io)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/cfpathcheck/badge.svg)](https://snyk.io/test/github/timbeadle/cfpathcheck)
 
 ## Installation
@@ -40,8 +39,8 @@ Static analysis for cfml template import and include paths
 | 7.x     | 14.13.0       | Obsolete    |
 | 8.x     | 14.17.0       | Obsolete    |
 | 9.x     | 16.14.0       | Obsolete    |
-| 10.x    | 18.0.0        | Maintenance |
-| 11.x    | 20.0.0        | Current     |
+| 10.x    | 18.0.0        | Obsolete    |
+| 11.x    | 20.19.1       | Current     |
 
 ### Release history
 

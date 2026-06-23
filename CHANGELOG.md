@@ -2,6 +2,78 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.3.0] - 2026-03-30
+### Added
+- xo.config.js
+
+### Updated
+- All regexes now have the `v` flag added
+- @snyk/protect@1.1303.2
+- @types/node@25.5.0
+- glob@13.0.6
+- globals@17.4.0
+- ls-engines@0.10.0
+- mocha@12.0.0-beta-10
+- nyc@18.0.0
+- rimraf@6.1.3
+- typescript@6.0.2
+- xo@2.0.2
+- engines.node@20.20.2
+- volta.node@22.22.2
+- volta.npm@11.12.1
+
+### Removed
+- NodeJS v20 test run (this version is still supported, however)
+- xo.config.cjs
+
+## [11.2.0] - 2026-01-27
+### Added
+- @stylistic/object-curly-spacing and @stylistic/arrow-parens xo linting rules
+
+### Updated
+- Parantheses around arrow function args to match updated linting rules
+- @snyk/protect@1.1302.1
+- chalk@5.6.2
+- glob@13.0.0
+- @types/chai@5.2.3
+- @types/node@25.0.10
+- chai@6.2.2
+- globals@17.2.0
+- ls-engines@0.9.4
+- mocha@11.7.5
+- npm-run-all2@8.0.4
+- prettier@3.8.1
+- rimraf@6.1.2
+- typescript@5.9.3
+- xo@1.2.3
+- (engines) node@20.20.0
+- (Volta) node@20.20.0
+- (Volta) npm@11.8.0
+
+### Removed
+- Depshield badge
+
+## [11.1.0] - 2025-05-22
+### Updated
+- @snyk/protect@1.1297.1
+- @types/chai@5.2.2
+- @types/mocha@10.0.10
+- @types/node@22.15.21
+- chai@5.2.0
+- chalk@5.4.1
+- glob@11.0.2
+- globals@16.1.0
+- log-symbols@7.0.1
+- mocha@11.4.0
+- npm-run-all2@8.0.3
+- prettier@3.5.3
+- rimraf@6.0.1
+- typescript@5.8.3
+- xo@0.60.0
+- engines.node: >= 20.19.1
+- volta.node: 20.19.1
+- volta.npm: 11.4.0
+
 ## [11.0.0] - 2024-10-14
 ### Added
 - xo
@@ -699,6 +771,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
+[11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
+[11.1.0]: https://github.com/timbeadle/cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/cfpathcheck/compare/10.1.0...11.0.0
 [10.1.0]: https://github.com/timbeadle/cfpathcheck/compare/10.0.2...10.1.0
 [10.0.2]: https://github.com/timbeadle/cfpathcheck/compare/10.0.1...10.0.2
