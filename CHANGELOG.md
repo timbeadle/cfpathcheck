@@ -2,6 +2,31 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.4.0] - 2026-06-26
+
+### Updated
+
+* chore(deps): update node.js to v22.23.1 (9f5999e)
+* Fix lint issues (0cea2aa)
+* chore(deps): update dependency xo to v3 (01ea230)
+* fix(deps): update dependency @snyk/protect to ^1.1305.2 (3d3bdc8)
+* build(deps-dev): bump @types/node to 26.0.0 (fe3863e)
+* chore(deps): update actions/checkout action to v7 (408e093)
+* build(deps-dev): bump mocha from 12.0.0-beta-9.4 to 12.0.0-rc.1 (7157fcb)
+* build(deps-dev): bump ls-engines from 0.10.0 to 0.10.1 (c1c118c)
+* chore(deps): update dependency globals to ^17.7.0 (26e0d9f)
+* build(package-lock.json): Result of running 'npm audit fix' (cce1b4c)
+* chore(deps): update dependency npm-run-all2 to v9.0.2 (3d741ed)
+* chore(deps): update dependency npm to v11.17.0 (808c3ab)
+* build(deps-dev): bump shell-quote from 1.8.0 to 1.8.4 (aeafd01)
+* chore(deps): update dependency prettier to v3.8.4 (8f7bcd1)
+* build(deps-dev): bump fast-uri from 3.1.0 to 3.1.2 (26b4461)
+* build(deps-dev): bump ip-address from 10.1.0 to 10.2.0 (a94aedf)
+* build(.github/workflows/nodejs.yml): Replace NodeJS v25 with v26 (ea2aa92)
+* build(deps-dev): bump lodash from 4.17.23 to 4.18.1 (56003bf)
+* chore(deps): update dependency typescript to ^6.0.3 (53cb8f5)
+* Convert package.bin to object (eb5a2ff)
+
 ## [11.3.0] - 2026-03-30
 ### Added
 - xo.config.js
@@ -771,6 +796,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.3.0...11.4.0
 [11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
 [11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/cfpathcheck/compare/11.0.0...11.1.0
