@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.4.1] - 2026-08-10
+
+### Fix
+
+- **deps** Updated dependency js-yaml to 3.15.1 and 4.3.1
+- **deps** Updated dependency brace-expansion to 5.0.9
+- **deps** Updated dependency protobuf-specs to 0.5.1
+- **deps** Updated dependency sign to 4.1.1
+- **deps** Updated dependency tuf to 4.0.2
+- **deps** Updated dependency verify to 3.1.1
+- **deps** Updated dependency minimatch to 10.2.6
+- **deps** Updated dependency fast-uri to 3.1.5
+- **deps** Updated dependency ip-address to 10.5.0
+- **deps** Updated dependency make-fetch-happen to 15.0.6
+- **deps** Updated dependency shell-quote to 1.10.0
+- **deps** Updated dependency sigstore to 4.1.1
+- **deps** Updated dependency tar to 7.5.22
+
 ## [11.4.0] - 2026-06-26
 
 ### Updated
@@ -796,6 +814,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.4.0...11.4.1
 [11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.3.0...11.4.0
 [11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
 [11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
