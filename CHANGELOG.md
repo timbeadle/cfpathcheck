@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [12.0.1] (2026-08-10)
+
+### Fix
+
+- **deps**: update dependency js-yaml
+
 ## [12.0.0] (2026-08-10)
 
 ### BREAKING CHANGE
@@ -814,6 +820,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[12.0.1]: https://github.com/timbeadle/cfpathcheck/compare/12.0.0...12.0.1
 [12.0.0]: https://github.com/timbeadle/cfpathcheck/compare/11.4.0...12.0.0
 [11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.3.0...11.4.0
 [11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
