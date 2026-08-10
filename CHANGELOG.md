@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [12.0.0] (2026-08-10)
+
+### BREAKING CHANGE
+
+- Removes NodeJS <22 support
+
+### Fix
+
+- **lib/utils.js**: Return the boolean expression directly
+- **deps**: update dependency @snyk/protect to ^1.1306.3
+- **deps**: update dependency chalk to ^6.0.0
+- **deps**: update devDependency @types/node to ^26.2.0
+- **deps**: update devDependency globals to ^17.9.0
+- **deps**: update devDependency mocha to ^12.0.0-rc.6
+- **deps**: update devDependency npm-run-all2 to 9.0.3
+- **deps**: update devDependency prettier to 3.9.6
+- **deps**: update devDependency xo to ^4.0.0
+
 ## [11.4.0] - 2026-06-26
 
 ### Updated
@@ -796,6 +814,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[12.0.0]: https://github.com/timbeadle/cfpathcheck/compare/11.4.0...12.0.0
 [11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.3.0...11.4.0
 [11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
 [11.2.0]: https://github.com/timbeadle/cfpathcheck/compare/11.1.0...11.2.0
