@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.4.2] - 2026-08-11
+
+### Fix
+
+- **deps** Updated dependency @snyk/protect to ^1.1306.3
+- **deps** Updated dependency @types/node to ^26.2.0
+- **deps** Updated dependency globals to ^17.9.0
+- **deps** Updated dependency mocha to ^12.0.0-rc.6
+- **deps** Updated dependency npm-run-all2 to 9.0.3
+- **deps** Updated dependency prettier to 3.9.6
+
 ## [11.4.1] - 2026-08-10
 
 ### Fix
@@ -814,6 +825,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - grunt for task running.
 - grunt-release for releasing tagged versions.
 
+[11.4.2]: https://github.com/timbeadle/cfpathcheck/compare/11.4.1...11.4.2
 [11.4.1]: https://github.com/timbeadle/cfpathcheck/compare/11.4.0...11.4.1
 [11.4.0]: https://github.com/timbeadle/cfpathcheck/compare/11.3.0...11.4.0
 [11.3.0]: https://github.com/timbeadle/cfpathcheck/compare/11.2.0...11.3.0
