@@ -44,7 +44,7 @@
     "static analysis"
   ],
   "dependencies": {
-    "@snyk/protect": "^1.1307.3",
+    "@snyk/protect": "^1.1307.4",
     "chalk": "^6.0.0",
     "checkstyle-formatter": "^1.1.0",
     "crlf": "^1.1.1",
