@@ -1,39 +1,18 @@
 {
   "name": "cfpathcheck",
-  "type": "module",
-  "description": "Check CFML files for correct paths in cfinclude/cfimport tags",
   "version": "12.0.1",
-  "homepage": "https://github.com/timbeadle/cfpathcheck",
-  "author": {
-    "name": "Tim Beadle",
-    "url": "https://github.com/timbeadle"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/timbeadle/cfpathcheck.git"
-  },
-  "bugs": {
-    "url": "https://github.com/timbeadle/cfpathcheck/issues"
-  },
+  "description": "Check CFML files for correct paths in cfinclude/cfimport tags",
   "license": "MIT",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/timbeadle/cfpathcheck/blob/main/LICENSE-MIT"
-    }
-  ],
-  "keywords": [
-    "cli",
-    "command line",
-    "cfml",
-    "static analysis"
-  ],
-  "preferGlobal": true,
-  "bin": {
-    "cfpathcheck": "bin/cli.js"
-  },
+  "repository": "github:timbeadle/cfpathcheck",
+  "homepage": "https://github.com/timbeadle/cfpathcheck",
+  "bugs": "https://github.com/timbeadle/cfpathcheck/issues",
+  "author": "Tim Beadle (https://github.com/timbeadle)",
+  "type": "module",
   "main": "./lib/cfpathcheck.js",
   "types": "./dist/cfpathcheck.d.ts",
+  "bin": {
+    "cfpathcheck": "./bin/cli.js"
+  },
   "engines": {
     "node": ">= 22"
   },
@@ -49,6 +28,12 @@
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
+  "keywords": [
+    "cli",
+    "command line",
+    "cfml",
+    "static analysis"
+  ],
   "dependencies": {
     "@snyk/protect": "^1.1307.3",
     "chalk": "^6.0.0",
@@ -77,6 +62,13 @@
     "typescript": "^6.0.3",
     "xo": "^5.0.1"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/timbeadle/cfpathcheck/blob/main/LICENSE-MIT"
+    }
+  ],
+  "preferGlobal": true,
   "snyk": true,
   "volta": {
     "node": "22.23.2",
