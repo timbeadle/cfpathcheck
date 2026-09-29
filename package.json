@@ -17,7 +17,7 @@
   },
   "sideEffects": false,
   "engines": {
-    "node": ">= 22"
+    "node": ">= 22.23.3"
   },
   "scripts": {
     "build:types": "rimraf -g ./dist/* && tsc",
@@ -73,7 +73,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "22.23.2",
+    "node": "22.23.3",
     "npm": "12.1.0"
   }
 }
