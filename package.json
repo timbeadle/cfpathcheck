@@ -17,7 +17,7 @@
   },
   "sideEffects": false,
   "engines": {
-    "node": ">= 22.23.3"
+    "node": ">= 22.23"
   },
   "scripts": {
     "build:types": "rimraf -g ./dist/* && tsc",
