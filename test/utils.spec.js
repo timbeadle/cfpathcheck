@@ -1,3 +1,4 @@
+import path from 'node:path';
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import * as utils from '../lib/utils.js';
@@ -24,6 +25,26 @@ describe('utils', () => {
 			expect(utils.containsObject(needle, haystack)).to.be.true; // eslint-disable-line no-unused-expressions
 		});
 
+		it('returns true when the object is not the first item in the array', () => {
+			const needle = {
+				foo: 'bar',
+				baz: 'quux',
+			};
+
+			const haystack = [
+				{
+					bar: 'foo',
+					quux: 'baz',
+				},
+				{
+					foo: 'bar',
+					baz: 'quux',
+				},
+			];
+
+			expect(utils.containsObject(needle, haystack)).to.be.true; // eslint-disable-line no-unused-expressions
+		});
+
 		it('returns false when object is not found in array', () => {
 			const needle = {
 				foo: 'bar',
@@ -38,6 +59,14 @@ describe('utils', () => {
 			];
 
 			expect(utils.containsObject(needle, haystack)).to.be.false; // eslint-disable-line no-unused-expressions
+		});
+
+		it('returns false when the array is empty', () => {
+			const needle = {
+				foo: 'bar',
+			};
+
+			expect(utils.containsObject(needle, [])).to.be.false; // eslint-disable-line no-unused-expressions
 		});
 	});
 
@@ -90,11 +119,37 @@ describe('utils', () => {
 
 			expect(result.length).to.equal(1);
 		});
+
+		it('returns an empty array when there are no matches', () => {
+			const result = utils.matchAll('<cfset foo = "bar" />', /<[\dA-Za-z]+:/gv);
+
+			expect(result).to.deep.equal([]);
+		});
+
+		it('returns named capture groups for each match', () => {
+			const line = '\t\t\t<foo:bar x="y" /><biz:bosh />';
+			const [first, second] = utils.matchAll(line, /<(?<namespace>[\dA-Za-z]+):/gv);
+
+			expect(first.groups.namespace).to.equal('foo');
+			expect(second.groups.namespace).to.equal('biz');
+		});
 	});
 
 	describe('normalisePath', () => {
 		it('is a function', () => {
 			expect(utils.normalisePath).to.be.an.instanceOf(Function);
+		});
+
+		it('resolves a relative path to an absolute path', () => {
+			const actual = utils.normalisePath('./fixtures/test-template.cfm');
+
+			expect(actual).to.equal(path.resolve('./fixtures/test-template.cfm'));
+		});
+
+		it('returns an absolute path unchanged', () => {
+			const filePath = path.resolve('./fixtures/test-template.cfm');
+
+			expect(utils.normalisePath(filePath)).to.equal(filePath);
 		});
 	});
 });
