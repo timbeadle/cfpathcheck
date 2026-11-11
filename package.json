@@ -68,7 +68,7 @@
     "npm-run-all2": "^9.0.4",
     "prettier": "^3.9.10",
     "rimraf": "^6.1.4",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "xo": "^5.0.1"
   },
   "snyk": true,
