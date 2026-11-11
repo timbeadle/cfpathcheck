@@ -14,11 +14,16 @@
     // Removing this would place the .d.ts files
     // next to the .js files
     "outDir": "dist",
+    // Emit declarations relative to lib so the output layout is dist/<file>.d.ts
+    "rootDir": "./lib",
     // go to js file when using IDE functions like
     // "Go to Definition" in VSCode
     "declarationMap": true,
     "esModuleInterop": true,
-    "target": "ES2015",
-    "moduleResolution": "Node"
+    "target": "ES2022",
+    // Include Node.js type definitions for dependencies that reference Node globals
+    "types": ["node"],
+    "module": "Node16",
+    "moduleResolution": "Node16"
   }
 }
